@@ -1,0 +1,1 @@
+./main.exe sb 2.bin

@@ -1,0 +1,3 @@
+Lenovo
+LAPTOP-KTKAJI1E 
+5 но€бр€ 2020 г.  20:52:34

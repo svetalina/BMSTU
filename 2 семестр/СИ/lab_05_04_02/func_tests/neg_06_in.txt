@@ -1,0 +1,1 @@
+./main.exe fb 2.bin

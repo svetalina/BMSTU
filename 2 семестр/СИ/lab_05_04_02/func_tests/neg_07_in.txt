@@ -1,0 +1,1 @@
+./main.exe ab 2.bin

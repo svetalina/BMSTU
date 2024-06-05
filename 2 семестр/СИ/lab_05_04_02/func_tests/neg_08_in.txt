@@ -1,0 +1,2 @@
+./main.exe fb 1.bin er
+sfdg sdf cvb ght
