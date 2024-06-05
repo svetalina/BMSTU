@@ -1,0 +1,28 @@
+\documentclass[a4paper,14pt, unknownkeysallowed]{extreport}
+
+\include{preamble}
+
+\begin{document}
+
+\includepdf[pages=-]{rpz_title.pdf}
+
+\include{contents}
+
+\include{02-intro}
+
+\include{03-analysis}
+
+\include{04-conclusion}
+
+\include{biblio}
+
+\chapter*{ПРИЛОЖЕНИЕ А}
+\begin{center}
+    (обязательное)
+    
+    \textbf{Презентация}
+\end{center}
+\addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ А Презентация}
+\includepdf[pages=-, landscape=true]{presentation.pdf}
+
+\end{document}

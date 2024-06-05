@@ -1,0 +1,100 @@
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\water.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\bush.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\ground.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.deps.json
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.GameLogic.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.AssemblyReference.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfoInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.AssemblyInfo.cs
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CoreCompileInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.csproj.CopyComplete
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.GameLogic\obj\Debug\netcoreapp3.1\CGRender.GameLogic.pdb

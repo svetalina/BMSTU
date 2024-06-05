@@ -1,0 +1,92 @@
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CopyComplete
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\water.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\bush.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\ground.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\leaf.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.mtl
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\Assets\spruce.obj
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.deps.json
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Database.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.AssemblyReference.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfoInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.AssemblyInfo.cs
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CoreCompileInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.csproj.CopyComplete
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender.Database\obj\Debug\netcoreapp3.1\CGRender.Database.pdb

@@ -1,0 +1,1 @@
+(print (cons 1 (cons (cons 2 (cons (cons 3 (cons (cons 4 nil) (cons 5 nil))) (cons 6 nil))) (cons 7 (cons (cons nil (cons 8 nil)) (cons (cons 9 (cons (cons (cons 'a nil) (cons 'b nil)) nil)) nil)))))  )

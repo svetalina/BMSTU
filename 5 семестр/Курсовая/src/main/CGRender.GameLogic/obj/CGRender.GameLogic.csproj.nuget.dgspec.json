@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.GameLogic\\CGRender.GameLogic.csproj": {}
+  },
+  "projects": {
+    "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\CGRender.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\CGRender.Database.csproj",
+        "projectName": "CGRender.Database",
+        "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\CGRender.Database.csproj",
+        "packagesPath": "C:\\Users\\svetl\\.nuget\\packages\\",
+        "outputPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\svetl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj": {
+                "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SharpDX.Mathematics": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.GameLogic\\CGRender.GameLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.GameLogic\\CGRender.GameLogic.csproj",
+        "projectName": "CGRender.GameLogic",
+        "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.GameLogic\\CGRender.GameLogic.csproj",
+        "packagesPath": "C:\\Users\\svetl\\.nuget\\packages\\",
+        "outputPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.GameLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\svetl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\CGRender.Database.csproj": {
+                "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender.Database\\CGRender.Database.csproj"
+              },
+              "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj": {
+                "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj",
+        "projectName": "CGRender.Core",
+        "projectPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\CGRender.Core.csproj",
+        "packagesPath": "C:\\Users\\svetl\\.nuget\\packages\\",
+        "outputPath": "D:\\Учеба\\5 семестр\\Курсовая работа\\src\\main\\CGRender\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\svetl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Mathematics": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

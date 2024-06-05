@@ -1,0 +1,823 @@
+2022-12-24 15:30:38,426 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e Connection State changed to RECONNECTED
+2022-12-24 15:30:38,724 INFO [Leader Election Notification Thread-4] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 This node has been elected Leader for Role 'Cluster Coordinator'
+2022-12-24 15:30:38,427 INFO [main-EventThread] o.a.c.framework.imps.EnsembleTracker New config event received: {}
+2022-12-24 15:30:39,807 INFO [Leader Election Notification Thread-3] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e This node is no longer leader for role 'Primary Node'
+2022-12-24 15:30:39,920 INFO [Leader Election Notification Thread-4] o.apache.nifi.controller.FlowController This node elected Active Cluster Coordinator
+2022-12-24 15:30:39,925 INFO [Leader Election Notification Thread-3] o.apache.nifi.controller.FlowController This node is no longer Primary Node
+2022-12-24 15:30:40,065 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e This node has been elected Leader for Role 'Primary Node'
+2022-12-24 15:30:40,192 INFO [Leader Election Notification Thread-1] o.apache.nifi.controller.FlowController This node has been elected Primary Node
+2022-12-24 15:30:43,248 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request eba8b0e8-7285-4cd1-b451-e63a03e3b882 (type=HEARTBEAT, length=2315 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:30:43,250 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:30:43,242 and sent to mynifi:8082 at 2022-12-24 15:30:43,250; send took 7 millis
+2022-12-24 15:30:47,907 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.node.NodeClusterCoordinator mynifi:8080 is now connected
+2022-12-24 15:30:47,988 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.node.NodeClusterCoordinator Status of mynifi:8080 changed from NodeConnectionStatus[nodeId=mynifi:8080, state=CONNECTING, updateId=13] to NodeConnectionStatus[nodeId=mynifi:8080, state=CONNECTED, updateId=15]
+2022-12-24 15:30:48,052 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.node.NodeClusterCoordinator Event Reported for mynifi:8080 -- Received first heartbeat from connecting node. Node connected.
+2022-12-24 15:30:48,071 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 164 millis
+2022-12-24 15:30:48,355 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 90e378d1-cb7f-469d-8a43-d6594147db8b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:30:48,357 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:30:48,350 and sent to mynifi:8082 at 2022-12-24 15:30:48,357; send took 7 millis
+2022-12-24 15:30:53,098 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20800 nanos
+2022-12-24 15:30:53,377 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b4bad919-b8a6-4aa1-ad02-2bbeda91f921 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:30:53,379 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:30:53,371 and sent to mynifi:8082 at 2022-12-24 15:30:53,379; send took 7 millis
+2022-12-24 15:30:58,107 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:30:58,110 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:30:59,417 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22300 nanos
+2022-12-24 15:30:59,478 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 21d14397-93a6-4dc6-b9d7-201daebb38e0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:30:59,480 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:30:59,472 and sent to mynifi:8082 at 2022-12-24 15:30:59,480; send took 7 millis
+2022-12-24 15:31:04,420 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25600 nanos
+2022-12-24 15:31:04,496 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request aa951f5e-2771-4971-8f0e-6cb59f1c3dfe (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:04,498 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:04,490 and sent to mynifi:8082 at 2022-12-24 15:31:04,498; send took 8 millis
+2022-12-24 15:31:09,352 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:31:09,421 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 29700 nanos
+2022-12-24 15:31:09,506 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8c352b81-1ea3-4338-8e8a-d468740117c2 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:09,508 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:09,500 and sent to mynifi:8082 at 2022-12-24 15:31:09,508; send took 8 millis
+2022-12-24 15:31:14,422 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19800 nanos
+2022-12-24 15:31:14,515 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ad12f0d7-14f9-46b9-a994-60d13f317118 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:14,518 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:14,509 and sent to mynifi:8082 at 2022-12-24 15:31:14,518; send took 8 millis
+2022-12-24 15:31:18,113 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:31:18,114 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:31:19,423 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20500 nanos
+2022-12-24 15:31:19,525 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 15f203a6-fbc5-499e-add9-b8c72cc8864d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:19,527 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:19,519 and sent to mynifi:8082 at 2022-12-24 15:31:19,527; send took 7 millis
+2022-12-24 15:31:24,567 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20600 nanos
+2022-12-24 15:31:24,735 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1ebc4c6f-8426-4f0e-96ed-7fcb06db83c1 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:24,737 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:24,729 and sent to mynifi:8082 at 2022-12-24 15:31:24,737; send took 7 millis
+2022-12-24 15:31:29,664 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20300 nanos
+2022-12-24 15:31:31,362 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f8413036-3415-40e8-a5d5-c30343768624 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:31,363 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:31,357 and sent to mynifi:8082 at 2022-12-24 15:31:31,363; send took 6 millis
+2022-12-24 15:31:34,706 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21900 nanos
+2022-12-24 15:31:36,415 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6674e903-0c15-4281-ad85-2be9219f8848 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:36,417 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:36,409 and sent to mynifi:8082 at 2022-12-24 15:31:36,417; send took 7 millis
+2022-12-24 15:31:38,130 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:31:38,131 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:31:39,707 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:31:41,427 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 77eda23d-2f62-49fc-bd7f-3cecfdef54fb (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 1 millis
+2022-12-24 15:31:41,429 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:41,422 and sent to mynifi:8082 at 2022-12-24 15:31:41,429; send took 6 millis
+2022-12-24 15:31:44,709 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24700 nanos
+2022-12-24 15:31:46,437 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 3e7299f2-f69d-461d-9cbf-312269b67897 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:31:46,439 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:46,430 and sent to mynifi:8082 at 2022-12-24 15:31:46,439; send took 8 millis
+2022-12-24 15:31:49,710 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22600 nanos
+2022-12-24 15:31:51,446 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ce6373c0-920e-473a-93df-5a60ff2e3e73 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:51,448 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:51,441 and sent to mynifi:8082 at 2022-12-24 15:31:51,448; send took 7 millis
+2022-12-24 15:31:54,711 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23600 nanos
+2022-12-24 15:31:56,439 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7e758839-1dfd-40f3-80e5-75d4a67aee9b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:31:56,442 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:31:56,434 and sent to mynifi:8082 at 2022-12-24 15:31:56,442; send took 7 millis
+2022-12-24 15:31:58,115 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:31:58,116 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:31:59,696 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20700 nanos
+2022-12-24 15:32:01,449 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8c88a0e9-bd59-48c5-a7b2-cd2fb2b102dc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:01,451 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:01,443 and sent to mynifi:8082 at 2022-12-24 15:32:01,451; send took 7 millis
+2022-12-24 15:32:04,697 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25600 nanos
+2022-12-24 15:32:06,458 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request cf27f396-0ac9-424c-8cd9-26dd2665dbd4 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:06,461 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:06,453 and sent to mynifi:8082 at 2022-12-24 15:32:06,461; send took 7 millis
+2022-12-24 15:32:09,698 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 45900 nanos
+2022-12-24 15:32:10,998 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:32:11,468 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c73d5c95-3a79-45d4-8f20-703f65cc37f3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:11,471 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:11,463 and sent to mynifi:8082 at 2022-12-24 15:32:11,471; send took 7 millis
+2022-12-24 15:32:14,700 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 36200 nanos
+2022-12-24 15:32:16,479 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 67c58fe5-a180-448f-9391-d9fef1583b41 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:16,483 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:16,472 and sent to mynifi:8082 at 2022-12-24 15:32:16,483; send took 10 millis
+2022-12-24 15:32:18,118 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:32:18,119 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:32:19,702 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 27500 nanos
+2022-12-24 15:32:21,491 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 36c6cfa5-9b72-4f0f-8c59-86ec8d7a1872 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:21,495 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:21,485 and sent to mynifi:8082 at 2022-12-24 15:32:21,495; send took 10 millis
+2022-12-24 15:32:23,472 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 659 milliseconds (Stop-the-world time = 378 milliseconds, Clear Edit Logs time = 247 millis), max Transaction ID 27
+2022-12-24 15:32:24,703 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 28100 nanos
+2022-12-24 15:32:26,503 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 84567bad-d472-4fa4-b679-c4befaac9e54 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:26,505 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:26,498 and sent to mynifi:8082 at 2022-12-24 15:32:26,505; send took 7 millis
+2022-12-24 15:32:29,709 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 38400 nanos
+2022-12-24 15:32:31,514 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 84d64dd4-0e20-4158-a2cd-2639c386d5fc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:31,516 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:31,508 and sent to mynifi:8082 at 2022-12-24 15:32:31,516; send took 7 millis
+2022-12-24 15:32:34,711 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25100 nanos
+2022-12-24 15:32:36,526 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 16e7f190-2fe4-466e-9b35-6e0419cbb7d3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:36,528 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:36,520 and sent to mynifi:8082 at 2022-12-24 15:32:36,528; send took 8 millis
+2022-12-24 15:32:38,121 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:32:38,122 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:32:39,712 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25900 nanos
+2022-12-24 15:32:41,537 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0a955f82-36c3-4467-b958-466441ed22ae (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:32:41,540 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:41,531 and sent to mynifi:8082 at 2022-12-24 15:32:41,540; send took 8 millis
+2022-12-24 15:32:49,116 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: SUSPENDED
+2022-12-24 15:36:18,658 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: RECONNECTED
+2022-12-24 15:36:18,689 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18300 nanos
+2022-12-24 15:36:18,693 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:32:49,011 and sent to mynifi:8082 at 2022-12-24 15:36:18,693; send took 2229 millis
+2022-12-24 15:36:18,691 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c2840196-e93d-4065-8026-b8ba800b3e7b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:18,689 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 Connection State changed to SUSPENDED
+2022-12-24 15:36:18,830 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager Because Connection State was changed to SUSPENDED, will relinquish leadership for role 'Cluster Coordinator'
+2022-12-24 15:36:18,880 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e Connection State changed to SUSPENDED
+2022-12-24 15:36:18,880 INFO [Leader Election Notification Thread-4] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 has been interrupted; no longer leader for role 'Cluster Coordinator'
+2022-12-24 15:36:18,937 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager Because Connection State was changed to SUSPENDED, will relinquish leadership for role 'Primary Node'
+2022-12-24 15:36:19,011 INFO [Leader Election Notification Thread-4] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 This node is no longer leader for role 'Cluster Coordinator'
+2022-12-24 15:36:19,032 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 Connection State changed to RECONNECTED
+2022-12-24 15:36:19,032 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e has been interrupted; no longer leader for role 'Primary Node'
+2022-12-24 15:36:19,073 INFO [Leader Election Notification Thread-4] o.apache.nifi.controller.FlowController This node is no longer the elected Active Cluster Coordinator
+2022-12-24 15:36:19,140 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e Connection State changed to RECONNECTED
+2022-12-24 15:36:19,142 INFO [main-EventThread] o.a.c.framework.imps.EnsembleTracker New config event received: {}
+2022-12-24 15:36:19,206 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e This node is no longer leader for role 'Primary Node'
+2022-12-24 15:36:19,264 INFO [Leader Election Notification Thread-1] o.apache.nifi.controller.FlowController This node is no longer Primary Node
+2022-12-24 15:36:20,414 INFO [Leader Election Notification Thread-2] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@67689be6 This node has been elected Leader for Role 'Cluster Coordinator'
+2022-12-24 15:36:20,415 INFO [Leader Election Notification Thread-3] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@18c26c2e This node has been elected Leader for Role 'Primary Node'
+2022-12-24 15:36:20,427 INFO [Leader Election Notification Thread-2] o.apache.nifi.controller.FlowController This node elected Active Cluster Coordinator
+2022-12-24 15:36:20,431 INFO [Leader Election Notification Thread-3] o.apache.nifi.controller.FlowController This node has been elected Primary Node
+2022-12-24 15:36:23,783 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6fb69c20-fa55-47c0-8191-1810801576e1 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:36:23,786 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:23,777 and sent to mynifi:8082 at 2022-12-24 15:36:23,786; send took 7 millis
+2022-12-24 15:36:25,575 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:36:25,576 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:36:28,737 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24100 nanos
+2022-12-24 15:36:28,793 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b32f4377-701f-4ec6-9357-0a7d7607a9c8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:28,796 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:28,788 and sent to mynifi:8082 at 2022-12-24 15:36:28,796; send took 8 millis
+2022-12-24 15:36:33,738 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23000 nanos
+2022-12-24 15:36:33,803 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4acfb963-dbcd-4c2b-b26f-91853bb7b73c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:33,806 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:33,798 and sent to mynifi:8082 at 2022-12-24 15:36:33,806; send took 8 millis
+2022-12-24 15:36:38,740 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 54200 nanos
+2022-12-24 15:36:38,813 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2c87aa2b-390e-4523-91f0-bf6f41ed4acb (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:38,815 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:38,807 and sent to mynifi:8082 at 2022-12-24 15:36:38,815; send took 7 millis
+2022-12-24 15:36:39,897 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:36:43,741 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24400 nanos
+2022-12-24 15:36:43,828 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f613ed81-0189-4bde-9aa5-cb56413cd69c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:43,831 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:43,822 and sent to mynifi:8082 at 2022-12-24 15:36:43,831; send took 8 millis
+2022-12-24 15:36:45,576 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:36:45,577 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:36:48,742 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 27300 nanos
+2022-12-24 15:36:48,840 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 813e0327-d9f8-4198-ba70-e031ad6a3d50 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:48,843 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:48,832 and sent to mynifi:8082 at 2022-12-24 15:36:48,843; send took 10 millis
+2022-12-24 15:36:53,744 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:36:53,849 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c6114188-4c5b-40fb-83b2-b372ac53ff5b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:53,852 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:53,844 and sent to mynifi:8082 at 2022-12-24 15:36:53,852; send took 8 millis
+2022-12-24 15:36:58,745 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21600 nanos
+2022-12-24 15:36:58,859 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request adb7267b-cf09-4e1e-9384-a377ca3e802c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:36:58,861 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:36:58,853 and sent to mynifi:8082 at 2022-12-24 15:36:58,861; send took 8 millis
+2022-12-24 15:37:03,746 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22300 nanos
+2022-12-24 15:37:03,868 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 9f4ab821-2650-4a8b-882b-25e60e4eea3f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:03,871 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:03,863 and sent to mynifi:8082 at 2022-12-24 15:37:03,871; send took 8 millis
+2022-12-24 15:37:05,579 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:37:05,580 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:37:08,748 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23100 nanos
+2022-12-24 15:37:08,878 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 80bf9f2f-5ff0-4666-8b66-73c2e981eb3b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:08,881 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:08,872 and sent to mynifi:8082 at 2022-12-24 15:37:08,881; send took 8 millis
+2022-12-24 15:37:13,749 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 26200 nanos
+2022-12-24 15:37:13,888 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5fc661e3-ae4a-445d-a291-1c67e5f855ea (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:13,892 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:13,882 and sent to mynifi:8082 at 2022-12-24 15:37:13,892; send took 8 millis
+2022-12-24 15:37:18,750 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 27000 nanos
+2022-12-24 15:37:18,899 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8514f4a0-931d-4359-bd63-31e5415847c1 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:18,902 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:18,894 and sent to mynifi:8082 at 2022-12-24 15:37:18,902; send took 8 millis
+2022-12-24 15:37:23,751 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22000 nanos
+2022-12-24 15:37:23,909 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 99c2ad07-34c9-4a53-bbdf-4172ab9ac0a3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:23,911 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:23,903 and sent to mynifi:8082 at 2022-12-24 15:37:23,911; send took 7 millis
+2022-12-24 15:37:25,581 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:37:25,582 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:37:28,753 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 28500 nanos
+2022-12-24 15:37:28,919 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0d9ee425-9d46-4ec6-b57d-31a421bf2ed8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:28,921 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:28,913 and sent to mynifi:8082 at 2022-12-24 15:37:28,921; send took 8 millis
+2022-12-24 15:37:33,754 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 28200 nanos
+2022-12-24 15:37:33,928 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0716c173-7c78-4bcd-b1ea-0404531a10c7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:33,930 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:33,922 and sent to mynifi:8082 at 2022-12-24 15:37:33,930; send took 7 millis
+2022-12-24 15:37:38,756 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22700 nanos
+2022-12-24 15:37:38,938 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 407f1dc0-bda9-4677-bb4b-5dc46d8bfbdd (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:37:38,941 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:38,932 and sent to mynifi:8082 at 2022-12-24 15:37:38,941; send took 8 millis
+2022-12-24 15:37:41,250 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:37:43,757 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 27800 nanos
+2022-12-24 15:37:43,947 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e9d4059a-fb25-4c14-9b83-67a3d1d388e9 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:43,950 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:43,942 and sent to mynifi:8082 at 2022-12-24 15:37:43,950; send took 7 millis
+2022-12-24 15:37:45,583 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:37:45,584 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:37:48,758 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 47200 nanos
+2022-12-24 15:37:48,958 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ccd6f868-8b8b-4591-b477-5ee1dc69f1d3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:48,961 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:48,951 and sent to mynifi:8082 at 2022-12-24 15:37:48,961; send took 9 millis
+2022-12-24 15:37:51,410 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 483 milliseconds (Stop-the-world time = 219 milliseconds, Clear Edit Logs time = 234 millis), max Transaction ID 27
+2022-12-24 15:37:53,760 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 33100 nanos
+2022-12-24 15:37:53,970 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0b486703-34d7-4bb7-8595-5db53e0d4eaf (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:37:53,974 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:53,962 and sent to mynifi:8082 at 2022-12-24 15:37:53,974; send took 12 millis
+2022-12-24 15:37:58,762 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 31800 nanos
+2022-12-24 15:37:58,984 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d5c9ef0a-0288-4b4f-815e-3cf34b575009 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:37:58,986 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:37:58,976 and sent to mynifi:8082 at 2022-12-24 15:37:58,986; send took 9 millis
+2022-12-24 15:38:03,763 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 26300 nanos
+2022-12-24 15:38:03,995 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c0fdd07c-cc72-4d3a-ad19-d6c7ad688ae2 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:38:03,998 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:03,988 and sent to mynifi:8082 at 2022-12-24 15:38:03,998; send took 9 millis
+2022-12-24 15:38:05,584 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:38:05,586 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:38:08,765 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 48400 nanos
+2022-12-24 15:38:09,007 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6db6e514-5f3f-42d2-a343-b5e72b3dc558 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:09,010 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:09,001 and sent to mynifi:8082 at 2022-12-24 15:38:09,010; send took 9 millis
+2022-12-24 15:38:13,767 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 86000 nanos
+2022-12-24 15:38:14,021 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d95bc147-c905-4caf-9c4e-8a4030a1d430 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:14,024 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:14,015 and sent to mynifi:8082 at 2022-12-24 15:38:14,024; send took 8 millis
+2022-12-24 15:38:18,768 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 29000 nanos
+2022-12-24 15:38:19,032 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c667e929-e139-45a7-99e3-a83b935ca47f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:19,035 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:19,025 and sent to mynifi:8082 at 2022-12-24 15:38:19,035; send took 9 millis
+2022-12-24 15:38:23,771 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 26300 nanos
+2022-12-24 15:38:24,044 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4bf84c7a-e43d-423b-b4c1-012a208c7753 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:24,046 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:24,038 and sent to mynifi:8082 at 2022-12-24 15:38:24,046; send took 7 millis
+2022-12-24 15:38:25,589 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:38:25,590 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:38:28,773 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 104600 nanos
+2022-12-24 15:38:29,055 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f2013dce-e2b4-4669-a159-d5b99e75bc99 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:29,057 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:29,049 and sent to mynifi:8082 at 2022-12-24 15:38:29,057; send took 7 millis
+2022-12-24 15:38:33,774 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 44000 nanos
+2022-12-24 15:38:34,078 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d487aa3e-2e83-4b5b-bcb0-adfc1615714a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 8 millis
+2022-12-24 15:38:34,079 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:34,066 and sent to mynifi:8082 at 2022-12-24 15:38:34,079; send took 12 millis
+2022-12-24 15:38:38,777 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 106300 nanos
+2022-12-24 15:38:39,087 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 008a1050-4f00-4c62-83fe-e8cfee48fb68 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:39,089 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:39,082 and sent to mynifi:8082 at 2022-12-24 15:38:39,089; send took 6 millis
+2022-12-24 15:38:42,696 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:38:43,779 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 95700 nanos
+2022-12-24 15:38:44,099 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 060520a7-5b92-4d5b-b941-8cb037fd5058 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:44,105 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:44,094 and sent to mynifi:8082 at 2022-12-24 15:38:44,105; send took 11 millis
+2022-12-24 15:38:45,592 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:38:45,594 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:38:48,780 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 65500 nanos
+2022-12-24 15:38:49,113 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4e6688d4-d5bc-45ab-a440-d775b65d6b72 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:38:49,116 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:49,107 and sent to mynifi:8082 at 2022-12-24 15:38:49,116; send took 9 millis
+2022-12-24 15:38:53,780 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19800 nanos
+2022-12-24 15:38:54,123 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4a7af73f-ef7a-4dfa-b221-b5667ef35fb3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:38:54,126 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:54,116 and sent to mynifi:8082 at 2022-12-24 15:38:54,126; send took 9 millis
+2022-12-24 15:38:58,783 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 29600 nanos
+2022-12-24 15:38:59,134 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 32f78011-3ef7-4546-a9fd-7e783caf4ab3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:38:59,137 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:38:59,128 and sent to mynifi:8082 at 2022-12-24 15:38:59,137; send took 9 millis
+2022-12-24 15:39:03,784 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24700 nanos
+2022-12-24 15:39:04,146 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1e65ee28-7a38-4cdd-a5bc-65a13d19ec61 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:39:04,149 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:04,139 and sent to mynifi:8082 at 2022-12-24 15:39:04,149; send took 9 millis
+2022-12-24 15:39:05,593 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:39:05,595 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:39:08,786 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15200 nanos
+2022-12-24 15:39:09,156 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request bc41a721-09e3-40a3-9222-555750ce6f6d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:09,158 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:09,150 and sent to mynifi:8082 at 2022-12-24 15:39:09,158; send took 7 millis
+2022-12-24 15:39:13,788 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17900 nanos
+2022-12-24 15:39:14,167 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2851d36c-7088-4124-a8b0-1c107cb6f9e2 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:14,170 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:14,162 and sent to mynifi:8082 at 2022-12-24 15:39:14,170; send took 8 millis
+2022-12-24 15:39:18,790 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20700 nanos
+2022-12-24 15:39:19,178 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1bc4747a-1ed0-456f-8c84-a9df1eeea1e5 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:19,181 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:19,172 and sent to mynifi:8082 at 2022-12-24 15:39:19,181; send took 8 millis
+2022-12-24 15:39:23,791 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15300 nanos
+2022-12-24 15:39:24,188 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c01b78f3-4d15-48e8-9a72-57f5b9908585 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:24,190 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:24,183 and sent to mynifi:8082 at 2022-12-24 15:39:24,190; send took 7 millis
+2022-12-24 15:39:25,595 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:39:25,597 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:39:28,793 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22700 nanos
+2022-12-24 15:39:29,222 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d17132f2-7488-4574-952a-d7a63841cb61 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:29,225 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:29,217 and sent to mynifi:8082 at 2022-12-24 15:39:29,225; send took 8 millis
+2022-12-24 15:39:33,795 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16300 nanos
+2022-12-24 15:39:34,232 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c2b2e2a9-279b-4e88-9275-e9e55870ad3d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:34,235 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:34,227 and sent to mynifi:8082 at 2022-12-24 15:39:34,235; send took 7 millis
+2022-12-24 15:39:38,796 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21900 nanos
+2022-12-24 15:39:39,243 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ac95563a-38e1-4ce9-b7c5-bb25f2b1a9a0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:39:39,245 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:39,236 and sent to mynifi:8082 at 2022-12-24 15:39:39,245; send took 9 millis
+2022-12-24 15:39:43,798 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16100 nanos
+2022-12-24 15:39:44,184 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:39:44,252 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2efb53df-0f78-4941-a870-032f5057e349 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:44,254 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:44,247 and sent to mynifi:8082 at 2022-12-24 15:39:44,254; send took 6 millis
+2022-12-24 15:39:45,597 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:39:45,599 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:39:48,799 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19600 nanos
+2022-12-24 15:39:49,261 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5b761196-9b27-498e-b445-efa1c1fb6cd7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:49,264 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:49,256 and sent to mynifi:8082 at 2022-12-24 15:39:49,264; send took 8 millis
+2022-12-24 15:39:51,824 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 413 milliseconds (Stop-the-world time = 143 milliseconds, Clear Edit Logs time = 237 millis), max Transaction ID 27
+2022-12-24 15:39:53,801 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19200 nanos
+2022-12-24 15:39:54,272 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 60a40e1a-27d0-4970-a622-b8241cd08d9e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:54,275 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:54,266 and sent to mynifi:8082 at 2022-12-24 15:39:54,275; send took 8 millis
+2022-12-24 15:39:58,803 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20700 nanos
+2022-12-24 15:39:59,282 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e6d4edda-7629-40ba-afd0-0145a849f3ae (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:39:59,284 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:39:59,276 and sent to mynifi:8082 at 2022-12-24 15:39:59,284; send took 7 millis
+2022-12-24 15:40:03,805 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17700 nanos
+2022-12-24 15:40:04,291 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 75ee2363-5999-4b4b-99cf-aad350e3abf8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:04,294 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:04,285 and sent to mynifi:8082 at 2022-12-24 15:40:04,294; send took 8 millis
+2022-12-24 15:40:05,601 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:40:05,602 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:40:08,807 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22200 nanos
+2022-12-24 15:40:09,301 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 085bbdac-8f79-4372-9b4a-89384d465b47 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:09,304 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:09,295 and sent to mynifi:8082 at 2022-12-24 15:40:09,304; send took 8 millis
+2022-12-24 15:40:13,809 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21700 nanos
+2022-12-24 15:40:14,310 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 04cf490f-4f11-4158-bb2a-9d074b366d83 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:14,313 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:14,305 and sent to mynifi:8082 at 2022-12-24 15:40:14,313; send took 8 millis
+2022-12-24 15:40:18,811 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18500 nanos
+2022-12-24 15:40:19,322 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 62eb7bf9-fda6-4044-8ef9-17fc1f1b2fed (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:40:19,325 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:19,314 and sent to mynifi:8082 at 2022-12-24 15:40:19,325; send took 10 millis
+2022-12-24 15:40:23,812 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25700 nanos
+2022-12-24 15:40:24,331 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 3bafa56b-c1fe-4480-bf1e-2f0a50301012 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:24,334 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:24,325 and sent to mynifi:8082 at 2022-12-24 15:40:24,334; send took 8 millis
+2022-12-24 15:40:25,602 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:40:25,604 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:40:28,814 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19900 nanos
+2022-12-24 15:40:29,342 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f7de6eeb-c80e-41d9-bc7a-a592d49a73ea (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:40:29,345 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:29,335 and sent to mynifi:8082 at 2022-12-24 15:40:29,345; send took 9 millis
+2022-12-24 15:40:33,815 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19800 nanos
+2022-12-24 15:40:34,352 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 407c34da-a889-4494-8a50-3e34e1552512 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:34,354 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:34,346 and sent to mynifi:8082 at 2022-12-24 15:40:34,354; send took 7 millis
+2022-12-24 15:40:38,817 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18800 nanos
+2022-12-24 15:40:39,363 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e0428318-43e8-4947-ba4a-0f2c9167955c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:39,365 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:39,356 and sent to mynifi:8082 at 2022-12-24 15:40:39,365; send took 9 millis
+2022-12-24 15:40:43,819 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24600 nanos
+2022-12-24 15:40:44,373 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 678d8c27-1898-462e-825f-2761a9a7b1e0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:44,375 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:44,367 and sent to mynifi:8082 at 2022-12-24 15:40:44,375; send took 8 millis
+2022-12-24 15:40:45,604 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:40:45,605 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:40:45,606 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:40:48,821 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20200 nanos
+2022-12-24 15:40:49,384 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 15fd894a-62b5-4e14-b232-db18fa829f2a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:40:49,386 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:49,377 and sent to mynifi:8082 at 2022-12-24 15:40:49,386; send took 9 millis
+2022-12-24 15:40:53,823 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16200 nanos
+2022-12-24 15:40:54,400 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 369b9a20-768f-4d7d-9750-76297539889e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:40:54,414 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:54,388 and sent to mynifi:8082 at 2022-12-24 15:40:54,414; send took 26 millis
+2022-12-24 15:40:58,824 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23100 nanos
+2022-12-24 15:40:59,439 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ef985445-59e5-4d4e-b234-cd9205767836 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:40:59,442 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:40:59,432 and sent to mynifi:8082 at 2022-12-24 15:40:59,442; send took 9 millis
+2022-12-24 15:41:03,826 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 38800 nanos
+2022-12-24 15:41:04,451 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request de1149a3-e90e-41a1-ba54-32fe467ec0e3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:41:04,454 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:04,444 and sent to mynifi:8082 at 2022-12-24 15:41:04,454; send took 9 millis
+2022-12-24 15:41:05,606 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:41:05,607 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:41:08,828 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 22700 nanos
+2022-12-24 15:41:09,464 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ef30c6e4-b79e-483d-9f3e-816130c371ff (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:41:09,467 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:09,455 and sent to mynifi:8082 at 2022-12-24 15:41:09,467; send took 11 millis
+2022-12-24 15:41:13,830 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18600 nanos
+2022-12-24 15:41:14,475 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d8139524-c3d2-4be9-b8f8-9a18aff5c887 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:14,478 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:14,469 and sent to mynifi:8082 at 2022-12-24 15:41:14,478; send took 9 millis
+2022-12-24 15:41:18,832 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16400 nanos
+2022-12-24 15:41:19,486 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 79d9563b-35f1-4bba-b7d6-b90d84dbcc9b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:19,489 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:19,480 and sent to mynifi:8082 at 2022-12-24 15:41:19,489; send took 9 millis
+2022-12-24 15:41:23,833 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16400 nanos
+2022-12-24 15:41:24,496 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8dd8e0a5-4ca7-498f-87ad-1940bf0e43ad (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:24,499 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:24,491 and sent to mynifi:8082 at 2022-12-24 15:41:24,499; send took 8 millis
+2022-12-24 15:41:25,608 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:41:25,609 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:41:28,835 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15100 nanos
+2022-12-24 15:41:29,505 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 87f354c6-c292-4400-be18-f7d561412135 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:29,508 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:29,500 and sent to mynifi:8082 at 2022-12-24 15:41:29,508; send took 7 millis
+2022-12-24 15:41:33,836 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18900 nanos
+2022-12-24 15:41:34,516 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request df8ab84d-b4e4-4bb2-9eb7-7b0f667291a3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:34,518 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:34,510 and sent to mynifi:8082 at 2022-12-24 15:41:34,518; send took 7 millis
+2022-12-24 15:41:38,837 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16100 nanos
+2022-12-24 15:41:39,525 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5fa5eefe-c438-4573-8384-7131b5d8569d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:39,676 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:39,520 and sent to mynifi:8082 at 2022-12-24 15:41:39,676; send took 156 millis
+2022-12-24 15:41:43,839 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17100 nanos
+2022-12-24 15:41:44,684 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f35f9eeb-84a3-40dd-9c33-cfe3d48884d5 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:41:44,687 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:44,678 and sent to mynifi:8082 at 2022-12-24 15:41:44,687; send took 8 millis
+2022-12-24 15:41:45,611 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:41:45,612 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:41:47,021 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:41:48,840 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21800 nanos
+2022-12-24 15:41:49,695 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ed1905cf-bd86-47bd-ad29-c4f55cd46b06 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:49,698 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:49,688 and sent to mynifi:8082 at 2022-12-24 15:41:49,698; send took 9 millis
+2022-12-24 15:41:52,244 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 419 milliseconds (Stop-the-world time = 145 milliseconds, Clear Edit Logs time = 240 millis), max Transaction ID 27
+2022-12-24 15:41:53,842 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17100 nanos
+2022-12-24 15:41:54,707 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c6344b77-6db2-4e50-ad4f-0d2235acf16b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:41:54,711 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:54,700 and sent to mynifi:8082 at 2022-12-24 15:41:54,711; send took 11 millis
+2022-12-24 15:41:58,844 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18500 nanos
+2022-12-24 15:41:59,725 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c7e4597a-15e9-4ee0-8381-e5d2e1de2195 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 4 millis
+2022-12-24 15:41:59,728 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:41:59,713 and sent to mynifi:8082 at 2022-12-24 15:41:59,728; send took 14 millis
+2022-12-24 15:42:03,846 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19700 nanos
+2022-12-24 15:42:04,736 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f23063b6-2e6f-4049-8299-2350f096d015 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:04,740 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:04,729 and sent to mynifi:8082 at 2022-12-24 15:42:04,740; send took 10 millis
+2022-12-24 15:42:05,614 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:42:05,615 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:42:08,847 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19200 nanos
+2022-12-24 15:42:09,748 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 242d10f9-22ff-4669-bd79-4696e469cc50 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:09,752 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:09,741 and sent to mynifi:8082 at 2022-12-24 15:42:09,752; send took 10 millis
+2022-12-24 15:42:13,849 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16000 nanos
+2022-12-24 15:42:14,759 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d05f9b8c-b832-48a7-8aa9-b49aa56fd99f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:14,762 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:14,753 and sent to mynifi:8082 at 2022-12-24 15:42:14,762; send took 8 millis
+2022-12-24 15:42:18,851 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17300 nanos
+2022-12-24 15:42:19,770 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 27239ae0-7eb3-45ab-ae5c-a4c4b712e82f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:19,773 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:19,763 and sent to mynifi:8082 at 2022-12-24 15:42:19,773; send took 9 millis
+2022-12-24 15:42:23,853 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19500 nanos
+2022-12-24 15:42:24,782 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c5b2ddca-23c2-4201-966b-b8bf7d1d1cff (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:24,785 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:24,775 and sent to mynifi:8082 at 2022-12-24 15:42:24,785; send took 9 millis
+2022-12-24 15:42:25,617 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:42:25,618 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:42:28,855 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25800 nanos
+2022-12-24 15:42:29,794 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e772bc0d-508f-4bb2-bce2-24626c5c020f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:29,796 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:29,786 and sent to mynifi:8082 at 2022-12-24 15:42:29,796; send took 10 millis
+2022-12-24 15:42:33,857 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21700 nanos
+2022-12-24 15:42:34,804 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 53a2c675-2c04-4d83-bfb5-6770e5735b2f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:42:34,807 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:34,798 and sent to mynifi:8082 at 2022-12-24 15:42:34,807; send took 8 millis
+2022-12-24 15:42:38,859 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18800 nanos
+2022-12-24 15:42:39,814 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 558da8c2-bbb8-4814-8a6d-9e6fc2194bfc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:42:39,817 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:39,808 and sent to mynifi:8082 at 2022-12-24 15:42:39,817; send took 8 millis
+2022-12-24 15:42:43,861 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18100 nanos
+2022-12-24 15:42:44,824 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b243f3d0-0a07-4acb-b7b7-001e5ec504b8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:44,827 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:44,818 and sent to mynifi:8082 at 2022-12-24 15:42:44,827; send took 8 millis
+2022-12-24 15:42:45,619 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:42:45,620 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:42:48,654 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:42:48,863 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25000 nanos
+2022-12-24 15:42:49,836 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1ade1f23-b4d7-48b9-b02e-30359d39ad6f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:49,839 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:49,829 and sent to mynifi:8082 at 2022-12-24 15:42:49,839; send took 10 millis
+2022-12-24 15:42:53,864 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19400 nanos
+2022-12-24 15:42:54,846 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6f9d9453-a659-4484-aeb8-b2b0df13c358 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:42:54,849 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:54,840 and sent to mynifi:8082 at 2022-12-24 15:42:54,849; send took 8 millis
+2022-12-24 15:42:58,866 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 138700 nanos
+2022-12-24 15:42:59,858 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b21a58f5-8a9c-43fa-91eb-62bc9956d26c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:42:59,861 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:42:59,850 and sent to mynifi:8082 at 2022-12-24 15:42:59,861; send took 10 millis
+2022-12-24 15:43:03,868 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18500 nanos
+2022-12-24 15:43:04,869 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c2d1828f-050a-4e64-921c-a847487a89d7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:04,873 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:04,863 and sent to mynifi:8082 at 2022-12-24 15:43:04,873; send took 9 millis
+2022-12-24 15:43:05,621 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:43:05,623 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:43:08,870 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20500 nanos
+2022-12-24 15:43:09,881 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c7d0d31f-5cd5-4a71-9b0b-a61bd5cdc5a8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:43:09,884 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:09,874 and sent to mynifi:8082 at 2022-12-24 15:43:09,884; send took 10 millis
+2022-12-24 15:43:13,871 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19300 nanos
+2022-12-24 15:43:14,892 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f6d4eff5-b81a-4bc4-bf36-2f04985dfb7c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:43:14,894 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:14,885 and sent to mynifi:8082 at 2022-12-24 15:43:14,894; send took 8 millis
+2022-12-24 15:43:18,874 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21200 nanos
+2022-12-24 15:43:19,903 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6a01e6fc-7893-4053-97d5-276336a5536c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:19,906 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:19,896 and sent to mynifi:8082 at 2022-12-24 15:43:19,906; send took 9 millis
+2022-12-24 15:43:23,875 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19800 nanos
+2022-12-24 15:43:24,913 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2b5f69a7-00df-42f7-9f19-51e04e4063a3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:24,916 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:24,908 and sent to mynifi:8082 at 2022-12-24 15:43:24,916; send took 8 millis
+2022-12-24 15:43:25,623 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:43:25,625 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:43:28,878 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17500 nanos
+2022-12-24 15:43:29,925 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d3f32c1c-a592-4100-a77f-651763612e94 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:43:29,928 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:29,917 and sent to mynifi:8082 at 2022-12-24 15:43:29,928; send took 10 millis
+2022-12-24 15:43:33,879 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20800 nanos
+2022-12-24 15:43:34,938 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b746b5cb-138b-474f-a75e-17f6dbe17f67 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:43:34,942 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:34,930 and sent to mynifi:8082 at 2022-12-24 15:43:34,942; send took 11 millis
+2022-12-24 15:43:38,881 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19700 nanos
+2022-12-24 15:43:39,949 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 981a2db5-725d-416e-957c-21d7dc8bb301 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:39,952 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:39,943 and sent to mynifi:8082 at 2022-12-24 15:43:39,952; send took 8 millis
+2022-12-24 15:43:43,883 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18300 nanos
+2022-12-24 15:43:44,959 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4b2b6a82-af05-436b-825f-214c1ef94d1b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:44,962 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:44,953 and sent to mynifi:8082 at 2022-12-24 15:43:44,962; send took 8 millis
+2022-12-24 15:43:45,625 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:43:45,626 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:43:48,885 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15500 nanos
+2022-12-24 15:43:49,970 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0daf7974-5e02-4afd-970e-0dfd3e761a30 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:43:49,972 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:49,964 and sent to mynifi:8082 at 2022-12-24 15:43:49,972; send took 8 millis
+2022-12-24 15:43:50,155 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:43:52,666 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 419 milliseconds (Stop-the-world time = 141 milliseconds, Clear Edit Logs time = 249 millis), max Transaction ID 27
+2022-12-24 15:43:53,886 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16000 nanos
+2022-12-24 15:43:54,981 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b4dd8254-1b36-42b8-a6aa-1399ddd671d3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:43:54,988 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:43:54,974 and sent to mynifi:8082 at 2022-12-24 15:43:54,988; send took 13 millis
+2022-12-24 15:43:58,888 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 28000 nanos
+2022-12-24 15:44:00,023 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request aeca9330-74df-4106-85a3-d9b513eab30c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:00,026 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:00,016 and sent to mynifi:8082 at 2022-12-24 15:44:00,026; send took 10 millis
+2022-12-24 15:44:03,889 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 26100 nanos
+2022-12-24 15:44:05,034 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5b00554d-e108-4b3f-ba97-87ac4e1692df (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:05,037 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:05,028 and sent to mynifi:8082 at 2022-12-24 15:44:05,037; send took 9 millis
+2022-12-24 15:44:05,627 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:44:05,629 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:44:08,891 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18000 nanos
+2022-12-24 15:44:10,044 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ed7d71f9-fa14-43e0-9cfa-983b70aa3b80 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:10,047 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:10,039 and sent to mynifi:8082 at 2022-12-24 15:44:10,047; send took 8 millis
+2022-12-24 15:44:13,893 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17300 nanos
+2022-12-24 15:44:15,055 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 0ad878ab-c71a-480e-a1d1-26a8fb94c45e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:15,058 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:15,049 and sent to mynifi:8082 at 2022-12-24 15:44:15,058; send took 9 millis
+2022-12-24 15:44:18,894 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19200 nanos
+2022-12-24 15:44:20,066 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 67bbd604-3c8d-43b9-8a4d-ae013f2c5d2d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:20,069 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:20,059 and sent to mynifi:8082 at 2022-12-24 15:44:20,069; send took 9 millis
+2022-12-24 15:44:23,896 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17800 nanos
+2022-12-24 15:44:25,077 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4d0445bc-9017-48a0-aefb-e4661d0c3613 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:25,080 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:25,070 and sent to mynifi:8082 at 2022-12-24 15:44:25,080; send took 9 millis
+2022-12-24 15:44:25,629 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:44:25,631 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:44:28,897 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19900 nanos
+2022-12-24 15:44:30,088 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 767ef627-efb3-409e-8e4e-2de20fd0d283 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:30,091 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:30,082 and sent to mynifi:8082 at 2022-12-24 15:44:30,091; send took 9 millis
+2022-12-24 15:44:33,899 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19200 nanos
+2022-12-24 15:44:35,099 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 71f87892-0578-4402-9130-e951461034ac (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:35,103 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:35,093 and sent to mynifi:8082 at 2022-12-24 15:44:35,103; send took 10 millis
+2022-12-24 15:44:38,901 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16200 nanos
+2022-12-24 15:44:40,110 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 201909c1-62b2-4154-a7e4-5d1ecfeaa965 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:40,113 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:40,104 and sent to mynifi:8082 at 2022-12-24 15:44:40,113; send took 8 millis
+2022-12-24 15:44:43,903 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19500 nanos
+2022-12-24 15:44:45,122 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request dc387caf-3d75-4ee5-baba-8f2fd8592dfc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:45,125 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:45,114 and sent to mynifi:8082 at 2022-12-24 15:44:45,125; send took 10 millis
+2022-12-24 15:44:45,632 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:44:45,633 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:44:48,904 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17900 nanos
+2022-12-24 15:44:50,133 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2360d40c-f4f0-4d51-b1ca-218c718d4501 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:44:50,136 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:50,126 and sent to mynifi:8082 at 2022-12-24 15:44:50,136; send took 9 millis
+2022-12-24 15:44:51,542 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:44:53,906 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19800 nanos
+2022-12-24 15:44:55,146 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e8c9a41a-a989-4e6b-b8fe-a5dd91f7924f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:44:55,149 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:44:55,138 and sent to mynifi:8082 at 2022-12-24 15:44:55,149; send took 11 millis
+2022-12-24 15:44:58,908 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15600 nanos
+2022-12-24 15:45:00,159 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1dc1bf8e-eac9-4c82-beb8-3db1ec86a0bf (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:45:00,162 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:00,152 and sent to mynifi:8082 at 2022-12-24 15:45:00,162; send took 9 millis
+2022-12-24 15:45:03,909 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17400 nanos
+2022-12-24 15:45:05,171 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7be2dc80-05f0-491d-9cd1-ba9f62f23086 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:45:05,174 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:05,164 and sent to mynifi:8082 at 2022-12-24 15:45:05,174; send took 9 millis
+2022-12-24 15:45:05,634 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:45:05,635 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:45:08,911 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17900 nanos
+2022-12-24 15:45:10,184 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8a2af77e-d4a6-4cd7-a40e-f34664558d04 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 4 millis
+2022-12-24 15:45:10,187 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:10,175 and sent to mynifi:8082 at 2022-12-24 15:45:10,187; send took 11 millis
+2022-12-24 15:45:13,913 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 24900 nanos
+2022-12-24 15:45:15,196 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 602e8f5a-46f8-435a-87e9-996098e243c6 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:45:15,199 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:15,189 and sent to mynifi:8082 at 2022-12-24 15:45:15,198; send took 9 millis
+2022-12-24 15:45:18,915 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 29200 nanos
+2022-12-24 15:45:20,207 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 595ec8c2-cdec-4c57-b4db-117e75612360 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:45:20,209 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:20,200 and sent to mynifi:8082 at 2022-12-24 15:45:20,209; send took 8 millis
+2022-12-24 15:45:23,916 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19200 nanos
+2022-12-24 15:45:25,216 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 842a3047-9f91-4eb2-975f-8c259ab46021 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:25,218 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:25,210 and sent to mynifi:8082 at 2022-12-24 15:45:25,218; send took 7 millis
+2022-12-24 15:45:25,637 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:45:25,638 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:45:28,918 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16500 nanos
+2022-12-24 15:45:30,225 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 930724d2-1a1e-4523-bd7c-9bea8b50b6f7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:30,228 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:30,220 and sent to mynifi:8082 at 2022-12-24 15:45:30,228; send took 8 millis
+2022-12-24 15:45:33,920 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16300 nanos
+2022-12-24 15:45:35,237 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c07d1ca8-9aab-43b7-b042-da0e1c4165ed (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:45:35,240 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:35,229 and sent to mynifi:8082 at 2022-12-24 15:45:35,240; send took 10 millis
+2022-12-24 15:45:38,921 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15600 nanos
+2022-12-24 15:45:40,248 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request abc0dff4-a3e9-461f-a521-ee6d9b0e97f4 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:40,250 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:40,242 and sent to mynifi:8082 at 2022-12-24 15:45:40,250; send took 8 millis
+2022-12-24 15:45:43,923 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20400 nanos
+2022-12-24 15:45:45,257 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f91fb1fe-4558-4dba-8ead-1c5066e7a2b8 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:45,260 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:45,252 and sent to mynifi:8082 at 2022-12-24 15:45:45,260; send took 7 millis
+2022-12-24 15:45:45,639 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:45:45,640 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:45:48,925 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19300 nanos
+2022-12-24 15:45:50,266 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 1892710f-1904-49cc-9377-f9448b35bf68 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:50,269 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:50,261 and sent to mynifi:8082 at 2022-12-24 15:45:50,269; send took 7 millis
+2022-12-24 15:45:53,191 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:45:53,239 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 571 milliseconds (Stop-the-world time = 191 milliseconds, Clear Edit Logs time = 340 millis), max Transaction ID 27
+2022-12-24 15:45:53,927 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16900 nanos
+2022-12-24 15:45:55,276 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c2b31587-4762-46f2-8360-ef534dd06d11 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:45:55,278 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:45:55,270 and sent to mynifi:8082 at 2022-12-24 15:45:55,278; send took 7 millis
+2022-12-24 15:45:58,928 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19000 nanos
+2022-12-24 15:46:00,291 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7841c4ae-cbea-4cfd-aaeb-2118844afd18 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:00,293 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:00,285 and sent to mynifi:8082 at 2022-12-24 15:46:00,293; send took 7 millis
+2022-12-24 15:46:03,931 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20600 nanos
+2022-12-24 15:46:05,300 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2a84f3e0-e985-460a-8b3e-b2cb20a072a2 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:05,302 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:05,295 and sent to mynifi:8082 at 2022-12-24 15:46:05,302; send took 7 millis
+2022-12-24 15:46:05,642 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:46:05,642 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:46:08,932 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:46:10,309 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 2ec38d36-e397-45ea-86ba-e37e7f2811b0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:10,311 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:10,304 and sent to mynifi:8082 at 2022-12-24 15:46:10,311; send took 7 millis
+2022-12-24 15:46:13,934 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 44000 nanos
+2022-12-24 15:46:15,318 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d87d448f-37bd-4944-83f4-59292ff579c0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:15,320 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:15,312 and sent to mynifi:8082 at 2022-12-24 15:46:15,320; send took 7 millis
+2022-12-24 15:46:18,936 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20400 nanos
+2022-12-24 15:46:20,328 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7db0202c-c329-4fc6-85c1-c1da62b3f4c0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:20,330 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:20,322 and sent to mynifi:8082 at 2022-12-24 15:46:20,330; send took 8 millis
+2022-12-24 15:46:23,938 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19500 nanos
+2022-12-24 15:46:25,336 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 62e50e5d-04bb-4107-9b70-d55bcdad3571 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:25,339 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:25,332 and sent to mynifi:8082 at 2022-12-24 15:46:25,339; send took 7 millis
+2022-12-24 15:46:25,644 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:46:25,645 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:46:28,940 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23000 nanos
+2022-12-24 15:46:30,346 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request fe94a59f-a645-4549-9dc3-025f01983939 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:30,349 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:30,341 and sent to mynifi:8082 at 2022-12-24 15:46:30,349; send took 7 millis
+2022-12-24 15:46:33,942 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17500 nanos
+2022-12-24 15:46:35,355 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 3bfe0d0f-571c-4f3b-8ae3-3b518905e8cf (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:35,358 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:35,350 and sent to mynifi:8082 at 2022-12-24 15:46:35,358; send took 8 millis
+2022-12-24 15:46:38,944 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20500 nanos
+2022-12-24 15:46:40,365 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 9fd350d3-bacf-442b-ac7f-8f23a074822d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:40,367 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:40,359 and sent to mynifi:8082 at 2022-12-24 15:46:40,367; send took 7 millis
+2022-12-24 15:46:43,945 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15000 nanos
+2022-12-24 15:46:45,374 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 37a6beff-341a-4a1d-ba15-34c8c11cfbc6 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:45,376 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:45,369 and sent to mynifi:8082 at 2022-12-24 15:46:45,376; send took 7 millis
+2022-12-24 15:46:45,646 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:46:45,647 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:46:48,947 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17000 nanos
+2022-12-24 15:46:50,383 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8ac916ae-7e28-4c4a-ab0f-e5319397927a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:50,385 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:50,378 and sent to mynifi:8082 at 2022-12-24 15:46:50,385; send took 7 millis
+2022-12-24 15:46:53,949 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 13400 nanos
+2022-12-24 15:46:54,617 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:46:55,392 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 708f7174-dfc0-49e9-9258-28bebbb5c4c4 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:46:55,394 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:46:55,387 and sent to mynifi:8082 at 2022-12-24 15:46:55,394; send took 7 millis
+2022-12-24 15:46:58,950 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18300 nanos
+2022-12-24 15:47:00,401 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5b96be73-0ce4-4002-81f4-c52eab5e87d5 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:00,403 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:00,395 and sent to mynifi:8082 at 2022-12-24 15:47:00,403; send took 8 millis
+2022-12-24 15:47:03,952 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 25000 nanos
+2022-12-24 15:47:05,410 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request defb6108-de0a-42c6-8bb6-3d090d85096f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:05,413 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:05,405 and sent to mynifi:8082 at 2022-12-24 15:47:05,413; send took 7 millis
+2022-12-24 15:47:05,649 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:47:05,650 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:47:08,954 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21700 nanos
+2022-12-24 15:47:10,420 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request be447880-426b-4918-9cbd-057c1b0d3773 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:10,422 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:10,414 and sent to mynifi:8082 at 2022-12-24 15:47:10,422; send took 8 millis
+2022-12-24 15:47:13,956 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16500 nanos
+2022-12-24 15:47:15,430 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 46468e15-bbbe-4ee1-bb3d-5e9293715bd7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:15,433 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:15,423 and sent to mynifi:8082 at 2022-12-24 15:47:15,433; send took 9 millis
+2022-12-24 15:47:18,957 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 23100 nanos
+2022-12-24 15:47:20,442 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request fe0da135-4c58-436c-a4dd-c449a596b71e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:47:20,445 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:20,434 and sent to mynifi:8082 at 2022-12-24 15:47:20,445; send took 10 millis
+2022-12-24 15:47:23,959 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20300 nanos
+2022-12-24 15:47:25,453 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 3e43b8d1-653d-43ac-8742-6b192685ee43 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:47:25,456 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:25,446 and sent to mynifi:8082 at 2022-12-24 15:47:25,456; send took 9 millis
+2022-12-24 15:47:25,650 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:47:25,651 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:47:28,961 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:47:30,464 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ca1c5c03-20e1-4956-ae46-33d786bbcbcc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:47:30,467 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:30,457 and sent to mynifi:8082 at 2022-12-24 15:47:30,467; send took 10 millis
+2022-12-24 15:47:33,962 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19600 nanos
+2022-12-24 15:47:35,474 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b47cf985-b30a-459d-9a61-3dab1cccde11 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:35,477 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:35,469 and sent to mynifi:8082 at 2022-12-24 15:47:35,477; send took 8 millis
+2022-12-24 15:47:38,964 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17500 nanos
+2022-12-24 15:47:40,485 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ecb08521-957e-4b17-b059-5b5c1f817bf7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:40,488 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:40,478 and sent to mynifi:8082 at 2022-12-24 15:47:40,488; send took 9 millis
+2022-12-24 15:47:43,966 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17000 nanos
+2022-12-24 15:47:45,494 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c3ff965e-9c75-4e08-b21d-53ba66dd3049 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:45,497 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:45,489 and sent to mynifi:8082 at 2022-12-24 15:47:45,497; send took 7 millis
+2022-12-24 15:47:45,652 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:47:45,653 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:47:48,968 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 52600 nanos
+2022-12-24 15:47:50,504 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d3b99e48-2e75-43ad-a0fd-c682f171a53e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:50,507 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:50,498 and sent to mynifi:8082 at 2022-12-24 15:47:50,507; send took 8 millis
+2022-12-24 15:47:53,643 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 404 milliseconds (Stop-the-world time = 131 milliseconds, Clear Edit Logs time = 240 millis), max Transaction ID 27
+2022-12-24 15:47:53,970 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18300 nanos
+2022-12-24 15:47:55,514 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 03fdc824-e75a-4264-8265-efabf9b4c4cc (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:47:55,517 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:47:55,508 and sent to mynifi:8082 at 2022-12-24 15:47:55,517; send took 8 millis
+2022-12-24 15:47:56,319 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:47:58,972 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17900 nanos
+2022-12-24 15:48:00,524 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request a13d3655-9112-4110-ad03-2d19c7a2d025 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:00,526 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:00,519 and sent to mynifi:8082 at 2022-12-24 15:48:00,526; send took 7 millis
+2022-12-24 15:48:03,973 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18800 nanos
+2022-12-24 15:48:05,533 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request fdab1ae7-6ef8-4249-b52f-da9b19b63971 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:05,536 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:05,528 and sent to mynifi:8082 at 2022-12-24 15:48:05,536; send took 7 millis
+2022-12-24 15:48:05,654 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:48:05,655 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:48:08,975 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18200 nanos
+2022-12-24 15:48:10,542 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request af268d49-b8e9-465f-9a16-5cae0d03c361 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:10,545 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:10,537 and sent to mynifi:8082 at 2022-12-24 15:48:10,545; send took 7 millis
+2022-12-24 15:48:13,977 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20200 nanos
+2022-12-24 15:48:15,554 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e536a539-6206-4c54-adbc-e1bcb4384e29 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:48:15,557 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:15,546 and sent to mynifi:8082 at 2022-12-24 15:48:15,557; send took 10 millis
+2022-12-24 15:48:18,979 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18200 nanos
+2022-12-24 15:48:20,565 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4e1faa0d-3a21-4872-8f42-721d3dcdcc42 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:48:20,567 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:20,558 and sent to mynifi:8082 at 2022-12-24 15:48:20,567; send took 9 millis
+2022-12-24 15:48:23,981 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16100 nanos
+2022-12-24 15:48:25,575 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request be06e0e1-bac9-49e2-a9a9-e96497b7295e (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:25,577 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:25,569 and sent to mynifi:8082 at 2022-12-24 15:48:25,577; send took 7 millis
+2022-12-24 15:48:25,656 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:48:25,657 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:48:28,983 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:48:30,584 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 21e9bc0b-d0f6-483b-b283-8db8719ff47a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:30,587 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:30,578 and sent to mynifi:8082 at 2022-12-24 15:48:30,587; send took 8 millis
+2022-12-24 15:48:33,985 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20800 nanos
+2022-12-24 15:48:35,594 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request a9b6b158-2a65-4159-9651-5f7bd7462929 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:35,596 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:35,588 and sent to mynifi:8082 at 2022-12-24 15:48:35,596; send took 8 millis
+2022-12-24 15:48:38,987 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 71600 nanos
+2022-12-24 15:48:40,603 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request a571e7ba-0047-4282-9385-18ef5888d81c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:40,605 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:40,598 and sent to mynifi:8082 at 2022-12-24 15:48:40,605; send took 7 millis
+2022-12-24 15:48:43,988 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 14800 nanos
+2022-12-24 15:48:45,612 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 02c4b5b5-99bc-4aa5-9f01-3d8e343c88db (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:45,614 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:45,607 and sent to mynifi:8082 at 2022-12-24 15:48:45,614; send took 7 millis
+2022-12-24 15:48:45,657 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:48:45,659 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:48:48,990 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17600 nanos
+2022-12-24 15:48:50,621 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7b82efe6-ed23-4cc3-9480-ad08c70fc9b0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:48:50,624 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:50,616 and sent to mynifi:8082 at 2022-12-24 15:48:50,624; send took 8 millis
+2022-12-24 15:48:53,992 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21100 nanos
+2022-12-24 15:48:55,632 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4a978d41-eb9d-40fb-8879-d5d775687f98 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:48:55,635 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:48:55,625 and sent to mynifi:8082 at 2022-12-24 15:48:55,635; send took 10 millis
+2022-12-24 15:48:57,858 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:48:58,993 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17100 nanos
+2022-12-24 15:49:00,644 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 537c9ee3-cb94-4304-a3f4-358dbf01793f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:49:00,647 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:00,637 and sent to mynifi:8082 at 2022-12-24 15:49:00,647; send took 10 millis
+2022-12-24 15:49:03,995 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21800 nanos
+2022-12-24 15:49:05,654 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b47e7533-718f-4029-aa96-831729458a62 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:05,657 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:05,649 and sent to mynifi:8082 at 2022-12-24 15:49:05,657; send took 7 millis
+2022-12-24 15:49:05,659 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:49:05,659 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:49:08,997 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20000 nanos
+2022-12-24 15:49:10,665 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 25315e92-057d-45cd-b1bf-e3fddfd1402a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:49:10,667 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:10,658 and sent to mynifi:8082 at 2022-12-24 15:49:10,667; send took 9 millis
+2022-12-24 15:49:13,999 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20100 nanos
+2022-12-24 15:49:15,674 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 69e6c9d5-8ad8-417f-a7c8-8c8010c52ef3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:15,677 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:15,669 and sent to mynifi:8082 at 2022-12-24 15:49:15,677; send took 8 millis
+2022-12-24 15:49:19,000 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19700 nanos
+2022-12-24 15:49:20,684 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request eb595421-fc01-4582-9d44-89bd21948dee (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:20,687 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:20,678 and sent to mynifi:8082 at 2022-12-24 15:49:20,687; send took 8 millis
+2022-12-24 15:49:24,002 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15300 nanos
+2022-12-24 15:49:25,661 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:49:25,663 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:49:25,695 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request da124062-6a6b-4de5-a158-56957d3c807d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:25,698 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:25,688 and sent to mynifi:8082 at 2022-12-24 15:49:25,698; send took 9 millis
+2022-12-24 15:49:29,003 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15800 nanos
+2022-12-24 15:49:30,706 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 26d4de97-3f64-4774-9dbd-3618c3b022c2 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:49:30,709 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:30,699 and sent to mynifi:8082 at 2022-12-24 15:49:30,709; send took 10 millis
+2022-12-24 15:49:34,005 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15500 nanos
+2022-12-24 15:49:35,717 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 82e31fe9-f090-4601-857b-e11251e866ad (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:49:35,721 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:35,711 and sent to mynifi:8082 at 2022-12-24 15:49:35,721; send took 9 millis
+2022-12-24 15:49:39,008 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17300 nanos
+2022-12-24 15:49:40,727 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 674e3225-aad5-4625-a527-4991e13be7c6 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:40,730 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:40,722 and sent to mynifi:8082 at 2022-12-24 15:49:40,730; send took 8 millis
+2022-12-24 15:49:44,009 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 20100 nanos
+2022-12-24 15:49:45,664 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:49:45,665 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:49:45,737 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 7c4a552e-5f9e-47a4-93fa-f4d0a62b8de3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:45,739 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:45,732 and sent to mynifi:8082 at 2022-12-24 15:49:45,739; send took 7 millis
+2022-12-24 15:49:49,011 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17200 nanos
+2022-12-24 15:49:50,749 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 76fa6343-9f78-43ba-8d23-8e8b0b42f1bf (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:49:50,751 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:50,741 and sent to mynifi:8082 at 2022-12-24 15:49:50,751; send took 9 millis
+2022-12-24 15:49:54,013 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15400 nanos
+2022-12-24 15:49:54,059 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 413 milliseconds (Stop-the-world time = 137 milliseconds, Clear Edit Logs time = 246 millis), max Transaction ID 27
+2022-12-24 15:49:55,758 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f04faa07-ee15-4211-94ea-6b0af132b573 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:49:55,761 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:49:55,753 and sent to mynifi:8082 at 2022-12-24 15:49:55,761; send took 8 millis
+2022-12-24 15:49:59,014 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 14900 nanos
+2022-12-24 15:49:59,294 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:50:00,769 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 249a57f4-2364-4dd2-b0b6-00e38803ac0b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:00,771 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:00,762 and sent to mynifi:8082 at 2022-12-24 15:50:00,771; send took 9 millis
+2022-12-24 15:50:04,015 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15100 nanos
+2022-12-24 15:50:05,667 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:50:05,668 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:50:05,779 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 19e74cae-555a-4f8c-9ee4-c6b4cd5910cf (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:05,782 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:05,772 and sent to mynifi:8082 at 2022-12-24 15:50:05,782; send took 9 millis
+2022-12-24 15:50:09,017 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16400 nanos
+2022-12-24 15:50:10,790 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request a6873a00-df03-4fc4-bff0-c0abfb11aa2f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:10,793 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:10,783 and sent to mynifi:8082 at 2022-12-24 15:50:10,793; send took 9 millis
+2022-12-24 15:50:14,018 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15400 nanos
+2022-12-24 15:50:15,801 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 767b4a37-ac73-435f-867e-990cea998b3a (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:15,804 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:15,795 and sent to mynifi:8082 at 2022-12-24 15:50:15,804; send took 9 millis
+2022-12-24 15:50:19,020 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17300 nanos
+2022-12-24 15:50:20,811 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 5fc4ae60-f9b3-448c-8c77-b1975426fdd0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:20,814 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:20,805 and sent to mynifi:8082 at 2022-12-24 15:50:20,814; send took 8 millis
+2022-12-24 15:50:24,021 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17500 nanos
+2022-12-24 15:50:25,669 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:50:25,671 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:50:25,822 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 42b410cc-37f0-4ccf-b465-bca779af54e3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:25,825 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:25,815 and sent to mynifi:8082 at 2022-12-24 15:50:25,825; send took 9 millis
+2022-12-24 15:50:29,023 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17100 nanos
+2022-12-24 15:50:30,832 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 58a28d08-979a-45a6-92cc-a4022c49dd8f (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:30,835 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:30,826 and sent to mynifi:8082 at 2022-12-24 15:50:30,835; send took 8 millis
+2022-12-24 15:50:34,024 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19500 nanos
+2022-12-24 15:50:35,843 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 9ecc4106-aaac-4f45-a6f7-909837bafedb (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:35,846 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:35,837 and sent to mynifi:8082 at 2022-12-24 15:50:35,846; send took 8 millis
+2022-12-24 15:50:39,025 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15400 nanos
+2022-12-24 15:50:40,854 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b1942a77-b61e-4efd-831a-5e7f6ad20ea0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:50:40,857 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:40,847 and sent to mynifi:8082 at 2022-12-24 15:50:40,857; send took 9 millis
+2022-12-24 15:50:44,027 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17300 nanos
+2022-12-24 15:50:45,672 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:50:45,674 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:50:45,867 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request b0282468-bb30-45dd-ac46-ac0070ac6b04 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:45,870 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:45,859 and sent to mynifi:8082 at 2022-12-24 15:50:45,870; send took 11 millis
+2022-12-24 15:50:49,028 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16300 nanos
+2022-12-24 15:50:50,878 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4da981b3-498f-4830-a1ba-811093b4b468 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:50,882 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:50,872 and sent to mynifi:8082 at 2022-12-24 15:50:50,882; send took 10 millis
+2022-12-24 15:50:54,029 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15500 nanos
+2022-12-24 15:50:55,890 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 092dca99-55d6-4ba9-a0bf-44f55a08d8d4 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:50:55,893 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:50:55,883 and sent to mynifi:8082 at 2022-12-24 15:50:55,893; send took 9 millis
+2022-12-24 15:50:59,031 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18500 nanos
+2022-12-24 15:51:00,708 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:51:00,901 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6b87d5b9-e8cf-47c9-bbb3-bc84b9973562 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:51:00,904 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:00,894 and sent to mynifi:8082 at 2022-12-24 15:51:00,904; send took 9 millis
+2022-12-24 15:51:04,032 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18200 nanos
+2022-12-24 15:51:05,675 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:51:05,676 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:51:05,911 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 74370d76-4536-498a-b3cf-d1a8c7a9e6f5 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:05,914 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:05,905 and sent to mynifi:8082 at 2022-12-24 15:51:05,914; send took 7 millis
+2022-12-24 15:51:09,033 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 14900 nanos
+2022-12-24 15:51:10,920 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request fe3e3b77-2314-4131-bfcf-0a9796b2ddf7 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:10,923 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:10,914 and sent to mynifi:8082 at 2022-12-24 15:51:10,923; send took 8 millis
+2022-12-24 15:51:14,035 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18100 nanos
+2022-12-24 15:51:15,931 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 9fdfdde7-4bd8-423e-99c4-c97e950daf56 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:51:15,934 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:15,924 and sent to mynifi:8082 at 2022-12-24 15:51:15,934; send took 9 millis
+2022-12-24 15:51:19,036 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 19100 nanos
+2022-12-24 15:51:20,942 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request ad979a0b-841b-41fc-beb0-3d52cd640ab3 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:51:20,945 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:20,936 and sent to mynifi:8082 at 2022-12-24 15:51:20,945; send took 9 millis
+2022-12-24 15:51:24,038 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17000 nanos
+2022-12-24 15:51:25,678 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:51:25,679 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:51:25,953 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 20888ebd-15e9-4640-94c0-aee0340f7a0b (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:25,956 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:25,946 and sent to mynifi:8082 at 2022-12-24 15:51:25,956; send took 9 millis
+2022-12-24 15:51:29,039 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18700 nanos
+2022-12-24 15:51:30,964 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8dd06b98-eeda-4cfe-9e84-445c84fe5396 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:51:30,967 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:30,957 and sent to mynifi:8082 at 2022-12-24 15:51:30,967; send took 10 millis
+2022-12-24 15:51:34,040 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 14700 nanos
+2022-12-24 15:51:35,976 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6ecb0a5d-ea5d-425e-ad4d-68d348c21f44 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 3 millis
+2022-12-24 15:51:35,979 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:35,969 and sent to mynifi:8082 at 2022-12-24 15:51:35,979; send took 9 millis
+2022-12-24 15:51:39,042 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 14500 nanos
+2022-12-24 15:51:40,985 INFO [Process Cluster Protocol Request-2] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 3884c8e4-ecf2-4819-8fba-68b81b50134d (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:40,988 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:40,980 and sent to mynifi:8082 at 2022-12-24 15:51:40,988; send took 7 millis
+2022-12-24 15:51:44,043 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 17700 nanos
+2022-12-24 15:51:45,681 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:51:45,682 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:51:45,995 INFO [Process Cluster Protocol Request-3] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f088d0be-f8c6-41f4-896e-ced4177717b0 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:45,999 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:45,990 and sent to mynifi:8082 at 2022-12-24 15:51:45,999; send took 9 millis
+2022-12-24 15:51:49,044 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 41800 nanos
+2022-12-24 15:51:51,007 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c5d1b6b1-644a-4840-9dfe-2b2ec2bede2c (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:51,008 INFO [Clustering Tasks Thread-3] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:51,000 and sent to mynifi:8082 at 2022-12-24 15:51:51,008; send took 8 millis
+2022-12-24 15:51:54,046 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 37500 nanos
+2022-12-24 15:51:54,482 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@1dfcf85a checkpointed with 2 Records and 0 Swap Files in 422 milliseconds (Stop-the-world time = 157 milliseconds, Clear Edit Logs time = 229 millis), max Transaction ID 27
+2022-12-24 15:51:56,017 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 8c212079-4e63-4800-a550-a5db1e480751 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:51:56,019 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:51:56,011 and sent to mynifi:8082 at 2022-12-24 15:51:56,019; send took 7 millis
+2022-12-24 15:51:59,047 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18100 nanos
+2022-12-24 15:52:01,027 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 6dcf8ff7-375a-4cc8-b9e1-733bbf9ee5ec (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:01,029 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:01,022 and sent to mynifi:8082 at 2022-12-24 15:52:01,029; send took 7 millis
+2022-12-24 15:52:02,046 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-12-24 15:52:04,049 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18700 nanos
+2022-12-24 15:52:05,684 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:52:05,685 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:52:06,037 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request c4e858c0-5b67-4729-985f-93fc3d9e6753 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:06,040 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:06,031 and sent to mynifi:8082 at 2022-12-24 15:52:06,040; send took 8 millis
+2022-12-24 15:52:09,050 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 15700 nanos
+2022-12-24 15:52:11,046 INFO [Process Cluster Protocol Request-8] o.a.n.c.p.impl.SocketProtocolListener Finished processing request f184994b-add0-425a-9ea0-01ed8918a6b1 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:11,049 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:11,041 and sent to mynifi:8082 at 2022-12-24 15:52:11,049; send took 8 millis
+2022-12-24 15:52:14,051 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 21200 nanos
+2022-12-24 15:52:16,057 INFO [Process Cluster Protocol Request-9] o.a.n.c.p.impl.SocketProtocolListener Finished processing request e054346c-c92b-4ade-9ab1-ebc6ba1f0cac (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:16,060 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:16,050 and sent to mynifi:8082 at 2022-12-24 15:52:16,060; send took 9 millis
+2022-12-24 15:52:19,053 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 18500 nanos
+2022-12-24 15:52:21,066 INFO [Process Cluster Protocol Request-10] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 48a6153b-c69a-4917-82c6-9c0949593817 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:21,069 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:21,061 and sent to mynifi:8082 at 2022-12-24 15:52:21,069; send took 8 millis
+2022-12-24 15:52:24,049 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 16000 nanos
+2022-12-24 15:52:25,680 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-12-24 15:52:25,682 INFO [pool-13-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-12-24 15:52:26,070 INFO [Process Cluster Protocol Request-1] o.a.n.c.p.impl.SocketProtocolListener Finished processing request d1e294ca-cc53-4bfa-a6b9-445237735514 (type=HEARTBEAT, length=2235 bytes) from mynifi:8080 in 2 millis
+2022-12-24 15:52:26,073 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:26,065 and sent to mynifi:8082 at 2022-12-24 15:52:26,073; send took 7 millis
+2022-12-24 15:52:32,902 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: SUSPENDED
+2022-12-24 15:52:34,589 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: RECONNECTED
+2022-12-24 15:52:35,328 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 41000 nanos
+2022-12-24 15:52:35,333 INFO [Clustering Tasks Thread-1] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-12-24 15:52:32,800 and sent to mynifi:8082 at 2022-12-24 15:52:35,333; send took 2532 millis

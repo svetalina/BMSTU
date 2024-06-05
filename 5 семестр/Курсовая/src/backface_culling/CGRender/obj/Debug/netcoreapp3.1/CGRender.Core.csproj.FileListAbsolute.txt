@@ -1,0 +1,40 @@
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\back_culing\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.deps.json
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.AssemblyReference.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfoInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfo.cs
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.CoreCompileInputs.cache
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.dll
+C:\Users\svetl\Desktop\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.deps.json
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\bin\Debug\netcoreapp3.1\CGRender.Core.pdb
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.AssemblyReference.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfoInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.AssemblyInfo.cs
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.csproj.CoreCompileInputs.cache
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.dll
+D:\Учеба\5 семестр\Курсовая работа\src\backface_culling\CGRender\obj\Debug\netcoreapp3.1\CGRender.Core.pdb
