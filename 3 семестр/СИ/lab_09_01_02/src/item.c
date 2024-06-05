@@ -1,0 +1,40 @@
+#define _GNU_SOURCE
+#include <string.h>
+#include "item.h"
+
+int item_read(FILE *f, item_t *record)
+{
+    record->name = NULL;
+    size_t len = 0;
+    
+    if (getline(&(record->name), &len, f) < 1 ||
+        fscanf(f, "%f\n", &(record->mass)) != 1 ||
+        fscanf(f, "%f\n", &(record->volume)) != 1)
+        return ERROR_SYMBOL;
+	
+    if (record->mass <= 0)
+        return ERROR_MASS;
+    if (record->volume <= 0)
+        return ERROR_VOLUME;
+	
+    return EXIT_SUCCESS;
+}
+
+void item_print(item_t *record)
+{
+    printf("%s", record->name);
+    printf("%f\n", record->mass);
+    printf("%f\n", record->volume);
+}
+
+void item_compare(item_t *record_1, item_t *record_2)
+{
+    int ro_1 = record_1->mass / record_1->volume;
+    int ro_2 = record_2->mass / record_2->volume;
+    if (ro_1 > ro_2)
+    {
+        item_t temp = *record_1;
+        *record_1 = *record_2;
+        *record_2 = temp;
+    }
+}

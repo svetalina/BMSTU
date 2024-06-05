@@ -1,0 +1,116 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                           30.11.2021 20:07:13                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -4.757   2            -5.000   3          -172.256n 
+4             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:               Q1
+Using model:       Q2T326V
+
+Beta Terms:
+BETADC             -2.043 
+BETAAC            -78.391m
+
+Capacitance Terms:
+CPI                 1.442p
+CMU                 1.916p
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM                -19.207f
+
+Current Terms:
+IB                 -4.758p
+IC                  9.722p
+
+Resistance Terms:
+RPI                 4.081T
+RX                 42.000 
+RO                920.375G
+
+Voltage Terms:
+VBE              -172.256n
+VBC                 4.757 
+VCE                -4.757 
+
+Frequency Terms:
+FT               -910.253u
+
+Power DC Terms:
+PD                 46.252p
+PS                  0.000 
+
+DC Pin Currents:
+Ib                  4.758p
+Ic                 -9.722p
+Ie                  4.964p
+Is                  0.000 
+
+Condition:
+State                  OFF
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R2            R1            R3
+V                  242.626m     -172.256n       -4.757 
+Power DC Terms:
+PD                 115.426u        0.001f        2.263m
+
+DC Pin Currents:
+Ir                 475.737u       -4.758p     -475.737u
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource             -4.758p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                  2.379m
+
+DC Pin Currents:
+ISource          -475.737u
+
+

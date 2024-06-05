@@ -1,0 +1,601 @@
+500
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Bishenova Black_Rabbit MIF 217 children 1 0
+Pushkin Ruslan_i_Lydmila Azbuka 68 fiction 0 0 1
+Lermontov Mziri Azbuka 35 fiction 0 0 1
+Gogol Nos Xsmo 56 fiction 1 0 0
+Ivanov Electron BMSTU 450 technical phisic 1 0 2006
+Petrov Proton BMSTU 307 technical phisic 1 0 2008
+Olenev C BMSTU 250 technical IT 1 0 2021
+Kernigan K_R ANSI 123 technical IT 0 1 1978
+Barto Tanya AST 3 children 0 1
+Chukovsky I_Bolit Ast 56 children 1 0
+Mendeleev Table MIF 320 technical chemistry 0 1 1878
+Lermontor Hero Azbuka 67 fiction 0 0 1
+Ostrovsky Groza AST 35 fiction 0 1 0
+Ford Automobile Past 350 technical phisic 0 1 1963
+Gogol Mertviy_dushi Azbuka 123 fiction 0 0 1
+Uald Night MIF 217 children 1 0
+Uald Day MIF 200 children 1 0
+Sokrat Mathematic AST 340 technical math 1 0 1963
+Ivanov Electron_part_two BMSTU 400 technical phisic 1 0 2009
+Narod Colobock MIF 24 children 1 0 
+Narod Emelya MIF 29 children 1 0 
+Gete Faust Youwrite 356 fiction 1 0 0
+Frid Mozg Youwrite 678 technical biology 0 1 2016
+Arbuzov Tanya AST 56 fiction 0 1 0
+Platon Gosudarctvo Azbuka 437 technical history 0 1 456
+Niche Zaratustrov MIF 235 technical history 0 1 1890
+Andersen Zolushka MIF 127 children 1 0
+Narod Ryba AST 12 children 1 0
+Barto Igrushki Azbuka 4 children 0 1
+Marshak White_cat Youwrite 34 children 0 1
+Rouling Harry_Potter MIF 1200 fiction 1 0 0
+Zamytin We Svet 231 fiction 1 0 0
+Galeley Coordinat Svet 357 technical math 0 1 1963
+Bulgakov Margarita AST 450 fiction 1 0 0
+Ostrovsky Snow AST 97 fiction 0 1 0
+Fonvisin Nedorosl Youwrite 45 fiction 0 0 1
+Yakovlev Dinamica Youwrite 764 technical physics 1 0 1963
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Bishenova Black_Rabbit MIF 217 children 1 0
+Pushkin Ruslan_i_Lydmila Azbuka 68 fiction 0 0 1
+Lermontov Mziri Azbuka 35 fiction 0 0 1
+Gogol Nos Xsmo 56 fiction 1 0 0
+Ivanov Electron BMSTU 450 technical phisic 1 0 2006
+Petrov Proton BMSTU 307 technical phisic 1 0 2008
+Olenev C BMSTU 250 technical IT 1 0 2021
+Kernigan K_R ANSI 123 technical IT 0 1 1978
+Barto Tanya AST 3 children 0 1
+Chukovsky I_Bolit Ast 56 children 1 0
+Mendeleev Table MIF 320 technical chemistry 0 1 1878
+Lermontor Hero Azbuka 67 fiction 0 0 1
+Ostrovsky Groza AST 35 fiction 0 1 0
+Ford Automobile Past 350 technical phisic 0 1 1963
+Gogol Mertviy_dushi Azbuka 123 fiction 0 0 1
+Uald Night MIF 217 children 1 0
+Uald Day MIF 200 children 1 0
+Sokrat Mathematic AST 340 technical math 1 0 1963
+Ivanov Electron_part_two BMSTU 400 technical phisic 1 0 2009
+Narod Colobock MIF 24 children 1 0 
+Narod Emelya MIF 29 children 1 0 
+Gete Faust Youwrite 356 fiction 1 0 0
+Frid Mozg Youwrite 678 technical biology 0 1 2016
+Arbuzov Tanya AST 56 fiction 0 1 0
+Platon Gosudarctvo Azbuka 437 technical history 0 1 456
+Niche Zaratustrov MIF 235 technical history 0 1 1890
+Andersen Zolushka MIF 127 children 1 0
+Narod Ryba AST 12 children 1 0
+Barto Igrushki Azbuka 4 children 0 1
+Marshak White_cat Youwrite 34 children 0 1
+Rouling Harry_Potter MIF 1200 fiction 1 0 0
+Zamytin We Svet 231 fiction 1 0 0
+Galeley Coordinat Svet 357 technical math 0 1 1963
+Bulgakov Margarita AST 450 fiction 1 0 0
+Ostrovsky Snow AST 97 fiction 0 1 0
+Fonvisin Nedorosl Youwrite 45 fiction 0 0 1
+Yakovlev Dinamica Youwrite 764 technical physics 1 0 1963
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Bishenova Black_Rabbit MIF 217 children 1 0
+Pushkin Ruslan_i_Lydmila Azbuka 68 fiction 0 0 1
+Lermontov Mziri Azbuka 35 fiction 0 0 1
+Gogol Nos Xsmo 56 fiction 1 0 0
+Ivanov Electron BMSTU 450 technical phisic 1 0 2006
+Petrov Proton BMSTU 307 technical phisic 1 0 2008
+Olenev C BMSTU 250 technical IT 1 0 2021
+Kernigan K_R ANSI 123 technical IT 0 1 1978
+Barto Tanya AST 3 children 0 1
+Chukovsky I_Bolit Ast 56 children 1 0
+Mendeleev Table MIF 320 technical chemistry 0 1 1878
+Lermontor Hero Azbuka 67 fiction 0 0 1
+Ostrovsky Groza AST 35 fiction 0 1 0
+Ford Automobile Past 350 technical phisic 0 1 1963
+Gogol Mertviy_dushi Azbuka 123 fiction 0 0 1
+Uald Night MIF 217 children 1 0
+Uald Day MIF 200 children 1 0
+Sokrat Mathematic AST 340 technical math 1 0 1963
+Ivanov Electron_part_two BMSTU 400 technical phisic 1 0 2009
+Narod Colobock MIF 24 children 1 0 
+Narod Emelya MIF 29 children 1 0 
+Gete Faust Youwrite 356 fiction 1 0 0
+Frid Mozg Youwrite 678 technical biology 0 1 2016
+Arbuzov Tanya AST 56 fiction 0 1 0
+Platon Gosudarctvo Azbuka 437 technical history 0 1 456
+Niche Zaratustrov MIF 235 technical history 0 1 1890
+Andersen Zolushka MIF 127 children 1 0
+Narod Ryba AST 12 children 1 0
+Barto Igrushki Azbuka 4 children 0 1
+Marshak White_cat Youwrite 34 children 0 1
+Rouling Harry_Potter MIF 1200 fiction 1 0 0
+Zamytin We Svet 231 fiction 1 0 0
+Galeley Coordinat Svet 357 technical math 0 1 1963
+Bulgakov Margarita AST 450 fiction 1 0 0
+Ostrovsky Snow AST 97 fiction 0 1 0
+Fonvisin Nedorosl Youwrite 45 fiction 0 0 1
+Yakovlev Dinamica Youwrite 764 technical physics 1 0 1963
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Bishenova Black_Rabbit MIF 217 children 1 0
+Pushkin Ruslan_i_Lydmila Azbuka 68 fiction 0 0 1
+Lermontov Mziri Azbuka 35 fiction 0 0 1
+Gogol Nos Xsmo 56 fiction 1 0 0
+Ivanov Electron BMSTU 450 technical phisic 1 0 2006
+Petrov Proton BMSTU 307 technical phisic 1 0 2008
+Olenev C BMSTU 250 technical IT 1 0 2021
+Kernigan K_R ANSI 123 technical IT 0 1 1978
+Barto Tanya AST 3 children 0 1
+Chukovsky I_Bolit Ast 56 children 1 0
+Mendeleev Table MIF 320 technical chemistry 0 1 1878
+Lermontor Hero Azbuka 67 fiction 0 0 1
+Ostrovsky Groza AST 35 fiction 0 1 0
+Ford Automobile Past 350 technical phisic 0 1 1963
+Gogol Mertviy_dushi Azbuka 123 fiction 0 0 1
+Uald Night MIF 217 children 1 0
+Uald Day MIF 200 children 1 0
+Sokrat Mathematic AST 340 technical math 1 0 1963
+Ivanov Electron_part_two BMSTU 400 technical phisic 1 0 2009
+Narod Colobock MIF 24 children 1 0 
+Narod Emelya MIF 29 children 1 0 
+Gete Faust Youwrite 356 fiction 1 0 0
+Frid Mozg Youwrite 678 technical biology 0 1 2016
+Arbuzov Tanya AST 56 fiction 0 1 0
+Platon Gosudarctvo Azbuka 437 technical history 0 1 456
+Niche Zaratustrov MIF 235 technical history 0 1 1890
+Andersen Zolushka MIF 127 children 1 0
+Narod Ryba AST 12 children 1 0
+Barto Igrushki Azbuka 4 children 0 1
+Marshak White_cat Youwrite 34 children 0 1
+Rouling Harry_Potter MIF 1200 fiction 1 0 0
+Zamytin We Svet 231 fiction 1 0 0
+Galeley Coordinat Svet 357 technical math 0 1 1963
+Bulgakov Margarita AST 450 fiction 1 0 0
+Ostrovsky Snow AST 97 fiction 0 1 0
+Fonvisin Nedorosl Youwrite 45 fiction 0 0 1
+Yakovlev Dinamica Youwrite 764 technical physics 1 0 1963
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993
+Bishenova Wite_Rabbit MIF 167 children 1 0
+Caverin Math AST 320 technical math 1 0 1963
+Belousov Mathematic AST 150 technical math 1 0 1993

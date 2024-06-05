@@ -1,0 +1,13 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+#define ERROR_INPUT_MAIN 1
+#define ERROR_MEMORY 2
+#define ERROR_FILE_OPEN 3
+#define ERROR_MATCH_SIZES 4
+#define ERROR_ROW_SIZE 5
+#define ERROR_COLUMN_SIZE 6
+#define ERROR_VALUE 7
+#define ERROR_DEGENERATE_MATRIX 8
+
+#endif

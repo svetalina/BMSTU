@@ -1,0 +1,1 @@
+./app.exe o neg_03_in.txt res.txt

@@ -1,0 +1,1 @@
+./app.exe pos_in_05.txt pos_testing/outfile_5.txt

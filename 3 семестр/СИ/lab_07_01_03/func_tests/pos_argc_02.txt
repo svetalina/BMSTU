@@ -1,0 +1,1 @@
+./app.exe pos_in_02.txt pos_testing/outfile_2.txt  f

@@ -1,0 +1,1 @@
+./app.exe neg_02_in_01.txt neg_02_in_02.txt

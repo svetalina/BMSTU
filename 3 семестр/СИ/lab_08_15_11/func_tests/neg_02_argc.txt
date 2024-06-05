@@ -1,0 +1,1 @@
+./app.exe o a f neg_02_in.txt res.txt

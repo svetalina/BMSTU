@@ -1,0 +1,1 @@
+./app.exe m pos_04_in_01.txt pos_04_in_02.txt res_04.txt

@@ -1,0 +1,1 @@
+./app.exe neg_in_04.txt neg_out_04.txt f

@@ -1,0 +1,7 @@
+set_color = "\x1B"
+base_color = "[0m"
+red = "[31m"
+green = "[32m"
+yellow = "[33m"
+blue = "[34m"
+purple = "[35m"

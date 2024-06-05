@@ -1,0 +1,13 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+#define ERROR_MEMORY 10
+
+#define ERROR_SIZE_ROW 2
+#define ERROR_SIZE_COLUMN 3
+#define ERROR_SIGN_SIZE 4
+#define ERROR_ELEMENT 5
+#define ERROR_DEGREE 6
+#define ERROR_SIGN_DEGREE 7
+
+#endif

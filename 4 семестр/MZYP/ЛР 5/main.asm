@@ -1,0 +1,159 @@
+STACKSEG SEGMENT PARA STACK 'STACK'
+    DB 100 DUP(0)
+STACKSEG ENDS
+
+DATASEG SEGMENT PARA 'DATA'
+    RMSG DB 'Enter the number of matrix rows: $'
+    CMSG DB 'Enter the number of matrix columns: $'
+    MMSG DB 'Enter matrix:$'
+    RESMSG DB 'Resulting matrix:$'
+    
+	DECR DW 0
+    ROWS DB 0
+    COLS DB 0
+
+    MATRIX DB 9 * 9 DUP(0)
+	
+	VOWELS DB 'aeiouy'
+	CL_TMP DB 0
+DATASEG ENDS
+
+CODESEG SEGMENT PARA 'CODE'
+    ASSUME CS:CODESEG, DS:DATASEG, ES:DATASEG, SS:STACKSEG
+
+	INSYMB:
+		MOV AH, 1
+		INT 21H
+		RET
+
+	OUTSYMB:
+		MOV AH, 2
+		INT 21H
+		RET
+
+	NEWLINE:
+		MOV AH, 2
+		MOV DL, 13
+		INT 21H
+		MOV DL, 10
+		INT 21H
+		RET
+
+	PRINTSPACE:
+		MOV AH, 2
+		MOV DL, ' '
+		INT 21H
+		RET
+
+	MOVENL:
+		MOV AX, 9
+		SUB AL, COLS
+		ADD BX, AX
+		RET
+
+	MAIN:
+		MOV AX, DATASEG
+		MOV DS, AX
+		
+		mov AX, DATASEG
+		mov ES, AX
+
+		MOV AH, 9
+		MOV DX, OFFSET RMSG
+		INT 21H
+
+		CALL INSYMB
+		MOV ROWS, AL
+		SUB ROWS, '0'
+		CALL NEWLINE
+
+		MOV AH, 9
+		MOV DX, OFFSET CMSG
+		INT 21H
+
+		CALL INSYMB
+		MOV COLS, AL
+		SUB COLS, '0'
+		CALL NEWLINE
+
+		MOV AH, 9
+		MOV DX, OFFSET MMSG
+		INT 21H
+		CALL NEWLINE
+
+		; Ввод матрицы
+		MOV DECR, 0
+		MOV BX, 0
+		MOV CL, ROWS 
+		INMAT:
+			MOV CL, COLS
+			INROW:
+				CALL INSYMB
+				
+				MOV CL_TMP, CL
+				
+				MOV CX, 6
+				LEA DI, VOWELS
+				REPNE SCASB
+				JZ SAVE
+				
+				CMP AL, 'a'
+				JGE CAPITALIZE
+				JL SAVE
+				
+				CAPITALIZE:
+					SUB AL, 20h
+				SAVE:
+					SUB AL, 0h
+				
+				
+				MOV MATRIX[BX], AL
+				INC BX 
+				CALL PRINTSPACE
+				
+				MOV CL, CL_TMP
+				LOOP INROW
+				
+
+			CALL NEWLINE
+			CALL MOVENL 
+			MOV CL, ROWS 
+			MOV SI, DECR 
+			SUB CX, SI 
+			INC DECR
+			LOOP INMAT
+		 
+		
+		CALL NEWLINE
+
+		
+		MOV AH, 9
+		MOV DX, OFFSET RESMSG
+		INT 21H
+		CALL NEWLINE
+		
+		; Вывод матрицы
+		MOV DECR, 0
+		MOV BX, 0
+		MOV CL, ROWS
+		OUTMAT:
+			MOV CL, COLS
+			OUTROW:
+				MOV DL, MATRIX[BX]
+				CALL OUTSYMB
+				INC BX 
+				CALL PRINTSPACE
+				LOOP OUTROW
+
+			CALL NEWLINE
+			CALL MOVENL
+			MOV CL, ROWS
+			MOV SI, DECR
+			SUB CX, SI
+			INC DECR
+			LOOP OUTMAT
+
+		MOV AX, 4C00H
+		INT 21H
+CODESEG ENDS
+END MAIN
