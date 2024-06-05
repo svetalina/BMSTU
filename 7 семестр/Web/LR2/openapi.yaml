@@ -1,0 +1,637 @@
+---
+openapi: 3.0.0
+info:
+  title: Books
+  description: API для книжной информационной системы
+  version: 1.0.0
+paths:
+  /account/registration:
+    post:
+      tags:
+      - Account
+      summary: Регистрация
+      parameters:
+        - name: Login  
+          in: query       
+          required: true  
+          schema:
+            type: string 
+        - name: Password  
+          in: query       
+          required: true  
+          schema:
+            type: string 
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '400':
+          description: Bad Request
+  
+  /account/authorization:
+    post:
+      tags:
+      - Account
+      summary: Авторизация
+      parameters:
+        - name: Login  
+          in: query       
+          required: true  
+          schema:
+            type: string 
+        - name: Password  
+          in: query       
+          required: true  
+          schema:
+            type: string 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '400':
+          description: Bad Request
+  
+  /account/{UserId}:
+    patch:
+      tags:
+      - Account
+      security:
+        - Bearer: []
+      summary: Настройки
+      parameters:
+        - name: UserId  
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/User"
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found
+    delete:
+      tags:
+        - Account
+      security:
+        - Bearer: []
+      summary: Удаление аккаунта
+      parameters:
+        - name: UserId  
+          in: path       
+          required: true  
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found
+          
+  /search/simple:
+    get:
+      tags:
+        - Search
+      summary: Простой поиск
+      parameters:
+        - name: Name  
+          in: query       
+          schema:
+            type: string 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/SearchDTO"
+        '400':
+          description: Bad Request
+  
+  /search/authors:
+    get:
+      tags:
+        - Search
+      summary: Расширенный поиск авторов
+      parameters:
+        - name: Author
+          in: query
+          schema:
+            $ref: '#/components/schemas/Author'
+        - name: YearBirthFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+        - name: YearDeathFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchDTO'
+        '400':
+          description: Bad Request
+  
+  /search/books:
+    get:
+      tags:
+        - Search
+      summary: Расширенный поиск книг
+      parameters:
+        - name: Book
+          in: query
+          schema:
+            $ref: '#/components/schemas/Book'
+        - name: YearFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+        - name: RatingFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchDTO'
+        '400':
+          description: Bad Request
+
+  /search/series:
+    get:
+      tags:
+        - Search
+      summary: Расширенный поиск серий
+      parameters:
+        - name: Series
+          in: query
+          schema:
+            $ref: '#/components/schemas/Series'
+        - name: YearFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+        - name: RatingFlag
+          in: query
+          schema:
+            $ref: '#/components/schemas/SearchFlag'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchDTO'
+        '400':
+          description: Bad Request
+          
+  /bookshelf/{BookshelfId}:
+    get:
+      tags:
+        - Bookshelf
+      security:
+        - Bearer: []
+      summary: Избранное пользователя 
+      parameters:
+        - name: BookshelfId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookshelfDTO'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found
+  
+  /bookshelf/{BookshelfId}/{BookId}:
+    post:
+      tags:
+        - Bookshelf
+      security:
+        - Bearer: []
+      summary: Добавление книги 
+      parameters:
+        - name: BookshelfId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+        - name: BookId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookshelfDTO'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found
+    patch:
+      tags:
+        - Bookshelf
+      security:
+        - Bearer: []
+      summary: Чтение книги 
+      parameters:
+        - name: BookshelfId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+        - name: BookId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookshelfDTO'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found      
+    delete:
+      tags:
+        - Bookshelf
+      security:
+        - Bearer: []
+      summary: Удаление книги 
+      parameters:
+        - name: BookshelfId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+        - name: BookId
+          in: path       
+          required: true  
+          schema:
+            type: integer 
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookshelfDTO'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '404':
+          description: Not Found
+    
+  /admin/addition:
+    post:
+      tags:
+        - Admin
+      security:
+        - Bearer: [admin]
+      summary: Добавление в БД
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AdminDTO'
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '403':
+          description: Forbidden
+  
+  /admin/books:
+    get:
+      tags:
+        - Admin
+      security:
+        - Bearer: [admin]
+      summary: Все книги БД
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+        '401':
+          description: Unauthorized 
+        '403':
+          description: Forbidden
+    patch:
+      tags:
+        - Admin
+      security:
+        - Bearer: [admin]
+      summary: Обновление книги в БД
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '403':
+          description: Forbidden
+  
+  /admin/users:
+    get:
+      tags:
+        - Admin
+      security:
+        - Bearer: [admin]
+      summary: Все пользователи БД
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '401':
+          description: Unauthorized 
+        '403':
+          description: Forbidden
+    patch:
+      tags:
+        - Admin
+      security:
+        - Bearer: [admin]
+      summary: Обновление пользователя в БД
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized 
+        '403':
+          description: Forbidden
+          
+
+components:
+  schemas:
+    Author:
+      type: object
+      properties:
+        Id:
+          type: integer
+          format: int32
+        Name:
+          type: string
+        YearBirth:
+          type: integer
+          format: int32
+        YearDeath:
+          type: integer
+          format: int32
+        Country:
+          type: string
+        Genre:
+          type: string
+      required:
+        - Name
+        - YearBirth
+        - Country
+        - Genre
+
+    Book:
+      type: object
+      properties:
+        Id:
+          type: integer
+          format: int32
+        Name:
+          type: string
+        Genre:
+          type: string
+        Year:
+          type: integer
+          format: int32
+        Language:
+          type: string
+        Rating:
+          type: number
+          format: double
+      required:
+        - Name
+        - Genre
+        - Year
+        - Language
+        - Rating
+    
+    Series:
+      type: object
+      properties:
+        Id:
+          type: integer
+          format: int32
+        Name:
+          type: string
+        Genre:
+          type: string
+        Publisher:
+          type: string
+        Year:
+          type: integer
+          format: int32
+        Rating:
+          type: number
+          format: double
+      required:
+        - Name
+        - Genre
+        - Publisher
+        - Year
+        - Rating
+        
+    BookAuthor:
+      type: object
+      properties:
+        idBook:
+          type: integer
+          format: int32
+        idAuthor:
+          type: integer
+          format: int32
+      required:
+        - idBook
+        - idAuthor
+
+    User:
+      type: object
+      properties:
+        Id:
+          type: integer
+          format: int32
+        Login:
+          type: string
+        Password:
+          type: string
+        Permission:
+          type: string
+      required:
+        - Login
+        - Password
+        - Permission
+    
+    Bookshelf:
+      type: object
+      properties:
+        Id:
+          type: integer
+          format: int32
+        IdUser:
+          type: integer
+          format: int32
+        Number:
+          type: integer
+          format: int32
+        Rating:
+          type: number
+          format: double
+      required:
+        - IdUser
+        - Number
+        - Rating
+        
+    SearchDTO:
+      type: object
+      properties:
+        Book:
+          type: array
+          items:
+            $ref: '#/components/schemas/Book'
+        Author:
+          type: array
+          items:
+            $ref: '#/components/schemas/Author'
+        Series:
+          type: array
+          items:
+            $ref: '#/components/schemas/Series'
+            
+    SearchFlag:
+      type: string
+      enum:
+        - Equal
+        - More
+        - Less
+        
+    BookshelfDTO:
+      type: object
+      properties:
+        Bookshelf:
+          $ref: '#/components/schemas/Bookshelf'
+        Books:
+          type: array
+          items:
+            $ref: '#/components/schemas/BookOnBookshelf'
+
+    BookOnBookshelf:
+      type: object
+      properties:
+        Book:
+          $ref: '#/components/schemas/Book'
+        IsRead:
+          type: boolean
+        Authors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Author'
+            
+    AdminDTO:
+      type: object
+      properties:
+        book:
+          $ref: '#/components/schemas/Book'
+        author:
+          $ref: '#/components/schemas/Author'
+        bookAuthor:
+          $ref: '#/components/schemas/BookAuthor'
+
+  
+  securitySchemes:
+    Bearer:
+      type: apiKey
+      name: Authorization
+      in: header

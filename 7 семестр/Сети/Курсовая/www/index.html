@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Статический сервер на СИ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p, ul {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Статический сервер на СИ</h1>
+        <p>
+            Студент: Светличная А. А.<br>
+            Группа: ИУ7-73
+        </p>
+        <h2>Требования:</h2>
+        <ul>
+            <li>Поддержка запросов GET и HEAD (поддержка статусов 200, 403, 404).</li>
+            <li>Ответ на неподдерживаемые запросы статусом 405</li>
+            <li>Выставление content type в зависимости от типа файла (поддержка .html, .css, .js, .png, .jpg, .jpeg, .swf, .gif)</li>
+            <li>Корректная передача файлов размером в 100мб.</li>
+            <li>Сервер по умолчанию должен возвращать html-страницу на выбранную тему с css-стилем.</li>
+            <li>Учесть минимальные требования к безопасности статик-серверов (предусмотреть ошибку в случае если адрес будет выходить за root директорию сервера)</li>
+            <li>Реализовать логгер.</li>
+            <li>Использовать язык Си. Сторонние библиотеки запрещены.</li>
+            <li>Статик сервер должен работать стабильно.</li>
+            <li>Провести сравнение результатов прохождения нагрузочного тестирования при помощи apache benchmark с nginx.</li>
+        </ul>
+
+        <h3>Структура - thread pool + pselect()</h3>
+    </div>
+    <div class="footer">
+        [Название университета], [Год]
+    </div>
+</body>
+
+</html>

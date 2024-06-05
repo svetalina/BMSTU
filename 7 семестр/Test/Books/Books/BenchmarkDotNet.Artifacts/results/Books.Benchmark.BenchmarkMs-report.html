@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Books.Benchmark.BenchmarkMs-20240118-203614</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, Windows 10 (10.0.19045.3930/22H2/2022Update)
+Intel Core i3-7020U CPU 2.30GHz (Kaby Lake), 1 CPU, 4 logical and 2 physical cores
+.NET SDK 7.0.302
+  [Host]     : .NET 6.0.16 (6.0.1623.17311), X64 RyuJIT AVX2 [AttachedDebugger]
+  DefaultJob : .NET 6.0.16 (6.0.1623.17311), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method </th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Min</th><th>Max</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>TestGetAll</td><td>6.624 ms</td><td>0.2288 ms</td><td>0.6378 ms</td><td>6.404 ms</td><td>5.932 ms</td><td>8.347 ms</td><td>194.6 KB</td>
+</tr><tr><td>TestGetByName</td><td>2.924 ms</td><td>0.1253 ms</td><td>0.3615 ms</td><td>2.774 ms</td><td>2.503 ms</td><td>4.000 ms</td><td>9.2 KB</td>
+</tr></tbody></table>
+</body>
+</html>

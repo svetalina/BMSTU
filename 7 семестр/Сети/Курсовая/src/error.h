@@ -1,0 +1,8 @@
+#define ERROR_WINSOCK 1
+#define ERROR_SOCKET 2
+#define ERROR_BIND 3
+#define ERROR_LISTEN 4
+#define ERROR_SELECT 5
+#define ERROR_ACCEPT 6
+#define ERROR_RECV 7
+#define ERROR_SEND 8

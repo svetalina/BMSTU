@@ -1,0 +1,3 @@
+MAIN_COLOR = "#b3dcfd"
+ADDED_COLOR = "#151b54"
+FONT = 18

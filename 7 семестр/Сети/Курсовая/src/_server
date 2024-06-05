@@ -1,0 +1,246 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <locale.h>
+#include <pthread.h>
+
+#define PORT 8080
+#define MAX_FILE_SIZE 100 * 1024 * 1024
+#define THREAD_POOL_SIZE 4
+
+char ROOT[] = "./www";
+
+const char *supported_file_types[] = {
+    ".html", ".css", ".js", ".png", ".jpg", ".jpeg", ".swf", ".gif", NULL
+};
+
+//Проверка на то, является ли файл поддерживаемым
+int is_supported_file_type(const char *path) {
+    const char *extension = strrchr(path, '.');
+    if (extension != NULL) {
+        for (int i = 0; supported_file_types[i]; i++) {
+            if (strcasecmp(extension, supported_file_types[i]) == 0) {
+                return 1;
+            }
+        }
+    }
+    return 0;
+}
+
+//Поолучение типа файла
+const char* get_content_type(const char *path) {
+    const char *extension = strrchr(path, '.');
+    if (extension != NULL) {
+        if (strcasecmp(extension, ".html") == 0) return "text/html";
+        if (strcasecmp(extension, ".css") == 0) return "text/css";
+        if (strcasecmp(extension, ".js") == 0) return "application/javascript";
+        if (strcasecmp(extension, ".png") == 0) return "image/png";
+        if (strcasecmp(extension, ".jpg") == 0 || strcasecmp(extension, ".jpeg") == 0) return "image/jpeg";
+        if (strcasecmp(extension, ".swf") == 0) return "application/x-shockwave-flash";
+        if (strcasecmp(extension, ".gif") == 0) return "image/gif";
+    }
+    return "application/octet-stream";
+}
+
+//Отправка ответа клиенту
+void send_response(int client_socket, const char *response) {
+    send(client_socket, response, strlen(response), 0);
+}
+
+//Обработка HTTP запроса от клиента
+void handle_request(SOCKET client_socket) {
+    char request[1024];
+    int bytes_received = recv(client_socket, request, sizeof(request), 0);
+    if (bytes_received <= 0) {
+        printf("Ошибка получения данных.\n");
+        return;
+    }
+    request[bytes_received] = '\0';
+    printf("\nПолучен запрос: %s", request);
+    
+    char method[255];
+    char path[1024];
+
+    sscanf(request, "%s %s", method, path);
+    
+    if (strcmp(path, "/") == 0) {
+        strncpy(path, "/main.html", sizeof(path) - 1);
+    }
+
+    char full_path[1024];
+	snprintf(full_path, sizeof(full_path), "%s%s", ROOT, path);
+	
+	//stat используется для хранения информации о файлах
+    struct stat file_stat;
+    if (stat(full_path, &file_stat) == -1 || file_stat.st_size > MAX_FILE_SIZE) {
+        send_response(client_socket, "HTTP/1.1 404 Not Found\r\n\r\n");
+    } else if (!is_supported_file_type(full_path)) {
+        send_response(client_socket, "HTTP/1.1 403 Forbidden\r\n\r\n");
+    } else {
+        int file_fd = open(full_path, O_RDONLY); // O_RDONLY - открытие только для чтения
+        if (file_fd == -1) {
+            send_response(client_socket, "HTTP/1.1 404 Not Found\r\n\r\n");
+        } 
+		else if (strcmp(method, "GET") == 0 || strcmp(method, "HEAD") == 0) 
+		{
+			const char *content_type = get_content_type(full_path);
+			char response_header[512];
+			snprintf(response_header, sizeof(response_header), "HTTP/1.1 200 OK\r\nContent-Length: %ld\r\nContent-Type: %s\r\n\r\n", file_stat.st_size, content_type);
+			send_response(client_socket, response_header);
+
+			if (strcmp(method, "GET") == 0) 
+			{
+			    char buffer[1024];
+			    ssize_t bytes_read;
+			    ssize_t total_bytes_read = 0;
+			
+			    int file_fd = open(full_path, O_BINARY | O_RDONLY);  // Открываем файл в бинарном режиме только для чтения
+			    while ((bytes_read = read(file_fd, buffer, sizeof(buffer))) > 0) {
+			        ssize_t total_sent = 0;
+			        total_bytes_read += bytes_read;
+			        while (total_sent < bytes_read) {
+			            ssize_t sent = send(client_socket, buffer + total_sent, bytes_read - total_sent, 0); // отправляем часть прочитанного файла
+			            if (sent == -1) {
+			                perror("Ошибка отправки данных");
+			                close(file_fd);
+			                return;
+			            }
+			            total_sent += sent;
+			        }
+			    }
+			    close(file_fd);
+			    printf("Всего прочитано из файла: %ld\n", total_bytes_read);
+			}
+	
+            close(file_fd);
+        }  
+		else 
+		{
+	        send_response(client_socket, "HTTP/1.1 405 Method Not Allowed\r\n\r\n");
+	        return;
+    	}
+    }
+
+    shutdown(client_socket, SD_SEND); // Завершаем соединение на сокете
+}
+
+typedef struct SocketQueue {
+    SOCKET sockets[1024];
+    int head;
+    int tail;
+    pthread_mutex_t mutex;
+    pthread_cond_t condition;
+} SocketQueue;
+
+SocketQueue socketQueue;
+
+void SocketQueue_init(SocketQueue *queue) {
+    queue->head = 0;
+    queue->tail = 0;
+    pthread_mutex_init(&(queue->mutex), NULL);
+    pthread_cond_init(&(queue->condition), NULL);
+}
+
+void SocketQueue_push(SocketQueue *queue, SOCKET s) {
+    pthread_mutex_lock(&(queue->mutex));
+    queue->sockets[queue->tail++] = s;
+    pthread_cond_signal(&(queue->condition));
+    pthread_mutex_unlock(&(queue->mutex));
+}
+
+SOCKET SocketQueue_pop(SocketQueue *queue) {
+    pthread_mutex_lock(&(queue->mutex));
+    while (queue->head == queue->tail) {
+        pthread_cond_wait(&(queue->condition), &(queue->mutex));
+    }
+    SOCKET s = queue->sockets[queue->head++];
+    pthread_mutex_unlock(&(queue->mutex));
+    return s;
+}
+
+void *worker_thread(void *arg) {
+    while (1) {
+        SOCKET client_socket = SocketQueue_pop(&socketQueue);
+        handle_request(client_socket);
+        closesocket(client_socket);
+    }
+    return NULL;
+}
+
+int main() {
+    // Инициализация
+    setlocale(LC_ALL, "Russian");
+    WSADATA wsa;
+    SOCKET server_socket, client_socket;
+    struct sockaddr_in server_addr, client_addr;
+    int client_addr_len = sizeof(client_addr);
+
+    if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) {
+        perror("Ошибка при инициализации WinSock");
+        return 1;
+    }
+
+    server_socket = socket(AF_INET, SOCK_STREAM, 0);
+    if (server_socket == INVALID_SOCKET) {
+        perror("Ошибка создания сокета");
+        return 1;
+    }
+
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(PORT);
+
+    if (bind(server_socket, (struct sockaddr *)&server_addr, sizeof(server_addr)) == SOCKET_ERROR) {
+        perror("Ошибка связывания сокета");
+        return 1;
+    }
+
+    if (listen(server_socket, 10) == SOCKET_ERROR) {
+        perror("Ошибка прослушивания сокета");
+        return 1;
+    }
+
+    printf("Сервер запущен на порту %d...\n", PORT);
+
+    SocketQueue_init(&socketQueue);
+    pthread_t threadPool[THREAD_POOL_SIZE]; // Пул потоков
+    for (int i = 0; i < THREAD_POOL_SIZE; i++) {
+        pthread_create(&(threadPool[i]), NULL, worker_thread, NULL);
+    }
+
+    fd_set readfds;
+    while (1) {
+        FD_ZERO(&readfds);
+        FD_SET(server_socket, &readfds);
+        
+        int activity = select(server_socket + 1, &readfds, NULL, NULL, NULL); // аналог pselect в Windows
+
+        if (activity < 0) {
+            perror("Ошибка при проверке файловых дескрипторов");
+            continue;
+        }
+
+        if (FD_ISSET(server_socket, &readfds)) {
+            client_socket = accept(server_socket, (struct sockaddr *)&client_addr, &client_addr_len);
+            if (client_socket == INVALID_SOCKET) {
+                perror("Ошибка при принятии подключения");
+                continue;
+            }
+            SocketQueue_push(&socketQueue, client_socket);
+        }
+    }
+
+    for (int i = 0; i < THREAD_POOL_SIZE; i++) {
+        pthread_join(threadPool[i], NULL);
+    }
+
+    closesocket(server_socket);
+    WSACleanup();
+
+    return 0;
+}
+

@@ -1,0 +1,55 @@
+{
+  "uuid": "b76b944d-5b85-4dfd-8671-fd62d7f9f960",
+  "historyId": "f243d2dbf45b8ff9e1921cab78ef2843",
+  "testCaseId": "3e44758f83a6bae101332b1cda6dbe8f",
+  "fullName": "E2ETests:E2ETests.E2ETests.TestAdd()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-M0NLA6O"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETests.E2ETests"
+    },
+    {
+      "name": "testMethod",
+      "value": "E2ETests.E2ETests.TestAdd"
+    },
+    {
+      "name": "package",
+      "value": "E2ETests.E2ETests"
+    },
+    {
+      "name": "suite",
+      "value": "E2ESuite"
+    }
+  ],
+  "links": [],
+  "name": "E2ETests.E2ETests.TestAdd",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1705506708161,
+  "stop": 1705506712231
+}

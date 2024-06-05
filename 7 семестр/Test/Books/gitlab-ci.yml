@@ -1,0 +1,19 @@
+stages:
+  - build
+  - unit_tests
+
+build:
+  stage: build
+  script:
+    - cd .\lab_02\
+    - dotnet build ".\src\Books\Books.csproj"
+
+unit_tests:
+  stage: unit_tests
+  script:
+    - cd .\lab_02\
+    - .\start_testing.ps1
+    - dotnet build ".\src\UnitTests\UnitTests.csproj"
+    - dotnet test ".\src\UnitTests\UnitTests.csproj"
+    - .\finish_testing.ps1
+  allow_failure: true

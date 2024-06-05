@@ -1,0 +1,105 @@
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-boxplot.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-barplot.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-facetDensity.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-facetDensity.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-DefaultJob-timeline.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-DefaultJob-timelineSmooth.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-DefaultJob-cummean.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-DefaultJob-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-facetTimeline.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetAll-cummean.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-facetDensity.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-facetDensity.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-DefaultJob-timeline.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-DefaultJob-timelineSmooth.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-DefaultJob-cummean.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-DefaultJob-density.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-facetTimeline.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: C:\Users\svetl\Desktop\Test\Books\Books\BenchmarkDotNet.Artifacts\results\Books.Benchmark.BenchmarkMs-TestGetByName-cummean.png ***
+------------------------------
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'dplyr'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:stats':
+    filter, lag
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:base':
+    intersect, setdiff, setequal, union
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'gdata'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:dplyr':
+    combine, first, last, starts_with
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:stats':
+    nobs
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:utils':
+    object.size
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:base':
+    startsWith
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'tidyr'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:gdata':
+    starts_with
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'gridExtra'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:gdata':
+    combine
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:dplyr':
+    combine
+R.devices v2.17.1 (2022-06-21 08:00:02 UTC) successfully loaded. See ?R.devices for help.
+`summarise()` has grouped output by 'Target_Method'. You can override using the
+`.groups` argument.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╡:
+`group_by_()` was deprecated in dplyr 0.7.0.
+тД╣ Please use `group_by()` instead.
+тД╣ See vignette('programming') for more help 
